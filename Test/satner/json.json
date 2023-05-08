@@ -1,0 +1,106 @@
+[
+  {
+    "board": {
+      "id": 1,
+      "title": "Quas suscipit porro aut temporibus sed.",
+      "description": "Et cum consequatur quidem vel qui impedit illum. Numquam ea dolore adipisci quas nisi vel. Et eaque et aliquid repellendus sit maxime. Consequatur est sequi quae et molestiae illum.",
+      "user": {
+        "id": 1,
+        "name": "Test User",
+        "email": "test@example.com",
+        "creator_id": null,
+        "role": "user"
+      },
+      "columns": [
+        {
+          "id": 1,
+          "title": "Omnis sit natus ut quis autem.",
+          "position": 1,
+          "tasks": [
+            {
+              "title": "Delectus tempore expedita maxime debitis.",
+              "description": "Perspiciatis tenetur temporibus et sit. Libero aliquam est consequatur aut voluptatem in porro. Iusto voluptate quo quia nam.",
+              "position": 1
+            },
+            {
+              "title": "Et omnis et dolorem saepe sapiente.",
+              "description": "Beatae distinctio aut et ullam quas. Minima sed cum quasi voluptas. Dicta architecto et id neque similique velit. Quasi quisquam hic repellendus deleniti.",
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Quasi totam officiis esse recusandae qui aut accusantium perferendis.",
+          "position": 2,
+          "tasks": [
+            {
+              "title": "Optio at qui voluptatem rerum harum qui quo.",
+              "description": "Dicta commodi sapiente omnis nihil consectetur tenetur. Incidunt earum tempora magnam excepturi quia. Voluptas et explicabo cum veritatis sint. Ut non at voluptas exercitationem dolorem quia quia.",
+              "position": 1
+            },
+            {
+              "title": "Omnis error itaque similique sed.",
+              "description": "Nostrum vel sit quo est. Quo est hic quis qui reprehenderit quia et. Molestias voluptates voluptatibus voluptatem debitis. Repellat autem quam enim dolorem dolorem atque.",
+              "position": 2
+            }
+          ]
+        }
+      ],
+      "created_at": "2023-03-30T15:42:29.000000Z",
+      "updated_at": "2023-03-30T15:42:29.000000Z"
+    }
+  },
+  {
+    "board": {
+      "id": 2,
+      "title": "Deleniti facere repellendus placeat neque velit.",
+      "description": "Accusantium nisi perferendis hic soluta possimus voluptas id recusandae. Voluptatem veniam totam id iure autem voluptatem modi. Enim mollitia et distinctio ducimus vel. Autem consequatur praesentium laboriosam molestias sed dignissimos perferendis.",
+      "user": {
+        "id": 1,
+        "name": "Test User",
+        "email": "test@example.com",
+        "creator_id": null,
+        "role": "user"
+      },
+      "columns": [
+        {
+          "id": 3,
+          "title": "Alias eius facilis est laudantium aut perferendis expedita.",
+          "position": 1,
+          "tasks": [
+            {
+              "title": "Et magni voluptatem unde in.",
+              "description": "Et dolorum vitae molestiae doloremque. Qui libero voluptatum temporibus ut explicabo. Qui iusto fuga voluptas aspernatur inventore et non optio. Accusamus ab labore doloribus repudiandae accusantium cumque.",
+              "position": 1
+            },
+            {
+              "title": "Aut dolor recusandae quidem possimus.",
+              "description": "Nesciunt nesciunt voluptas amet saepe rerum in. Voluptatem ex quia accusamus error sit aliquid animi. Nostrum officia et et laborum asperiores saepe. Enim porro minus dolorem facilis culpa sit.",
+              "position": 2
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Ea sed neque doloribus ea eos sunt.",
+          "position": 2,
+          "tasks": [
+            {
+              "title": "Animi ab voluptatem velit quasi fugiat eos delectus.",
+              "description": "Totam doloribus deserunt deserunt aut illum sed vitae. Mollitia suscipit rerum recusandae dolores et. Non cupiditate perferendis dolores sed tempore fugit.",
+              "position": 1
+            },
+            {
+              "title": "Sed voluptas est natus consequatur eum.",
+              "description": "Voluptatem neque natus quis labore. Repudiandae animi quis provident porro. Molestiae error quasi veritatis corporis. Sed rem expedita fugit nam.",
+              "position": 2
+            }
+          ]
+        }
+      ],
+      "created_at": "2023-03-30T15:42:29.000000Z",
+      "updated_at": "2023-03-30T15:42:29.000000Z"
+    }
+  }
+]
