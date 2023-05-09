@@ -54,7 +54,7 @@
             <div class="offset-lg-1 col-lg-5">
                 <div class="main_title text-left">
                     <h2>
-                        Расскажу<br />
+                        Расскажу1<br />
                         немного<br />
                         о дневнике
                     </h2>
