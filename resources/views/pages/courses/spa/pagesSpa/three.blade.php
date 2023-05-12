@@ -11,7 +11,7 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h3 style="color: #fff;">2 Урок Начало работы</h2>
+                <h3 style="color: #fff;">3 Работа с NavLink</h2>
             </div>
         </div>
     </div>
@@ -22,25 +22,8 @@
 <section class="portfolio_details_area section_gap">
     <div class="container">
         <div class="portfolio_details_inner">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
-                        <p>
-                            Откроите вашу IDE, это может быть как VSC или VS и другие!
-                        <p>
-                            После открытитя, создайте папку в которой будете работать, например так как показано на рисунке.
-                        </p>
-                    </div>
-                </div>
-            </div>
             <p style="text-indent: 20px;">
-                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="#">npx create-next-app</a>
+                Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого нам понадопится тег <a href="">NavLink</a>, чтобы его установить нужно ввестив терминал следующую команду
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -66,21 +49,34 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    npx create-react-app my-app
-                    <br>
-                    cd my-app
-                    <br>
-                    npm start
+                    npm i react-router-dom -save
                 </div>
             </div>
             <p style="text-indent: 20px;" class="mt-4">
-                Прописывать нужно в консольке Node.js или если у вас есть GitBush, можно и в нём, так же подойдёт встроенная консолька в VSC.
+                После того как вы её в вели, в файле package.json должен появить тег "react-router-dom": "^4.3.1", если всё так, то всё супер.
             </p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks4.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Установка</h4>
+                        <p>
+                            Дальше как изображено на рисунке создадим котрлоллер и две страницы Test и Glav.
+                        <p>
+                            Проделайте всё как на рисунке, благодаря этому у вас всё должно получиться.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидить на рисунке.
+                            Если у вас всё хорошо получилось, то на рисунке показана страница которая будет в результате получина, в конце курса я скину все исходники.
                         </p>
                         <p>
                             Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
@@ -89,27 +85,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks2.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Так же после успешной установки, проект сам откроется в браузере и запуститься.
-            </p>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks3.png" alt="">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            Если вы видите то что изображено на рисунке, и у вас работает порт localhost:3000, то всё супер.
-                        </p>
-                        <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
-                        </p>
+                        <img class="img-fluid" src="../assets/img/tasks/tasks5.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
             </div>
@@ -123,10 +99,10 @@
 <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
-            <a href="{{ route('threepagesSpa') }}">
+            <a href="{{ route('fourpagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
-                        <h1>3</h1>
+                        <h1>4</h1>
                     </div>
                 </div>
             </a>

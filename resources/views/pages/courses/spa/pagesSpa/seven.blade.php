@@ -11,7 +11,7 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h3 style="color: #fff;">2 Урок Начало работы</h2>
+                <h3 style="color: #fff;">Итоги</h2>
             </div>
         </div>
     </div>
@@ -23,92 +23,37 @@
     <div class="container">
         <div class="portfolio_details_inner">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Итоги</h4>
+                        <p>
+                            По резултатам, мы получаем готовый проект на ReactSPA!
+                        <p>
+                            Все исходники и результаты проекта я выгружу на хостинг, а все материалы вы модеже получить по это ссылве
+                        </p>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
                         <p>
-                            Откроите вашу IDE, это может быть как VSC или VS и другие!
+                            <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Скачать ПРОЕКТ</span></a>
                         <p>
-                            После открытитя, создайте папку в которой будете работать, например так как показано на рисунке.
+                            <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Посмотреть результаты</span></a>
                         </p>
                     </div>
                 </div>
             </div>
-            <p style="text-indent: 20px;">
-                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="#">npx create-next-app</a>
-            </p>
-            <div id="DIV_1">
-                <div id="DIV_2">
-                    <div id="DIV_3">
-                        <div id="DIV_4">
-                            <svg id="svg_5">
-                                <path id="path_6">
-                                </path>
-                            </svg> Terminal
-                        </div>
-                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                            <button id="BUTTON_8">
-                            </button>
-                            <svg id="svg_9">
-                                <path id="path_10">
-                                </path>
-                                <path id="path_11">
-                                </path>
-                            </svg>
-                            <!-- -->
-                            Copy
-                        </div>
-                    </div>
-                </div>
-                <div id="DIV_12">
-                    npx create-react-app my-app
-                    <br>
-                    cd my-app
-                    <br>
-                    npm start
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Прописывать нужно в консольке Node.js или если у вас есть GitBush, можно и в нём, так же подойдёт встроенная консолька в VSC.
-            </p>
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <p>
-                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидить на рисунке.
-                        </p>
-                        <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks2.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Так же после успешной установки, проект сам откроется в браузере и запуститься.
-            </p>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks3.png" alt="">
+                        <iframe class="video" width="1024" height="576" src="https://www.youtube.com/embed/GNrdg3PzpJQ" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Посмотреть видео ролик</h4>
                         <p>
-                            Если вы видите то что изображено на рисунке, и у вас работает порт localhost:3000, то всё супер.
-                        </p>
-                        <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                            Вы можете так же посмотреть видео ролик
                         </p>
                     </div>
                 </div>
@@ -116,24 +61,6 @@
         </div>
     </div>
 </section>
-<!--================End Portfolio Details Area =================-->
-<h1 class="text-center mb-5">Дальше -></h1>
-<h5 class="text-center mb-5">Урок №:</h5>
-<!--================ Srart Brand Area =================-->
-<section class="brand_area section_gap_bottom">
-    <div class="container">
-        <div class="row justify-content-center">
-            <a href="{{ route('threepagesSpa') }}">
-                <div class="single-brand-item d-table">
-                    <div class="d-table-cell text-center">
-                        <h1>3</h1>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
-<!--================ End Brand Area =================-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
     function copyToClipboard(element) {
@@ -145,6 +72,12 @@
     }
 </script>
 <style>
+    .video {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+
     #DIV_1 {
         block-size: 104px;
         border-block-end-color: rgb(229, 231, 235);

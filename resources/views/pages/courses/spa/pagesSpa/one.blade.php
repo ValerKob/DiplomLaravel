@@ -8,18 +8,10 @@
   position: relative;
   z-index: 1;
   min-height: 485px;">
-    <div class="banner_inner d-flex align-items-center" style="
-      position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 485px;
-    background: url(../assets/img/bannerCopy/common-banner.png) no-repeat right bottom;
-    background-size: 90% 85%;
-    width: 98%;
-    z-index: 1;">
+    <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h2>1 Урок Ввводный</h2>
+                <h3 style="color: #fff;">1 Урок Ввводный</h2>
             </div>
         </div>
     </div>

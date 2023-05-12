@@ -26,6 +26,10 @@ Route::view('coursesSpa', 'pages.courses.spa.index')->name('coursesSpa');
 Route::view('onepagesSpa', 'pages.courses.spa.pagesSpa.one')->name('onepagesSpa');
 Route::view('twopagesSpa', 'pages.courses.spa.pagesSpa.two')->name('twopagesSpa');
 Route::view('threepagesSpa', 'pages.courses.spa.pagesSpa.three')->name('threepagesSpa');
+Route::view('fourpagesSpa', 'pages.courses.spa.pagesSpa.four')->name('fourpagesSpa');
+Route::view('fivepagesSpa', 'pages.courses.spa.pagesSpa.five')->name('fivepagesSpa');
+Route::view('sixpagesSpa', 'pages.courses.spa.pagesSpa.six')->name('sixpagesSpa');
+Route::view('sevenpagesSpa', 'pages.courses.spa.pagesSpa.seven')->name('sevenpagesSpa');
 
 Route::view('testing', 'pages.testing.index')->name('testing');
 Route::view('testSpa', 'pages.testing.testSpa.index')->name('testSpa');

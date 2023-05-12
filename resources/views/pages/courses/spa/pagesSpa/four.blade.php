@@ -11,7 +11,7 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h3 style="color: #fff;">2 Урок Начало работы</h2>
+                <h3 style="color: #fff;">4 Приступаем к заданию</h2>
             </div>
         </div>
     </div>
@@ -25,91 +25,52 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks6.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
+                        <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            Откроите вашу IDE, это может быть как VSC или VS и другие!
+                            Теперь откроем задание и посмотрим что нужно сделать.
                         <p>
-                            После открытитя, создайте папку в которой будете работать, например так как показано на рисунке.
-                        </p>
+                            Как мы видим, в заданий сказано, разаботать Функционал официанта: <br>
+                            ● Создание нового заказа;<br>
+                            ● Добавление/удаление позиций из заказа;<br>
+                            ● Просмотр всех принятых им заказов за смену;<br>
+                            ● Изменение статуса заказа на «отменен» и «оплачен».<br>
                     </div>
                 </div>
             </div>
-            <p style="text-indent: 20px;">
-                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="#">npx create-next-app</a>
-            </p>
-            <div id="DIV_1">
-                <div id="DIV_2">
-                    <div id="DIV_3">
-                        <div id="DIV_4">
-                            <svg id="svg_5">
-                                <path id="path_6">
-                                </path>
-                            </svg> Terminal
-                        </div>
-                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                            <button id="BUTTON_8">
-                            </button>
-                            <svg id="svg_9">
-                                <path id="path_10">
-                                </path>
-                                <path id="path_11">
-                                </path>
-                            </svg>
-                            <!-- -->
-                            Copy
-                        </div>
-                    </div>
-                </div>
-                <div id="DIV_12">
-                    npx create-react-app my-app
-                    <br>
-                    cd my-app
-                    <br>
-                    npm start
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Прописывать нужно в консольке Node.js или если у вас есть GitBush, можно и в нём, так же подойдёт встроенная консолька в VSC.
-            </p>
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидить на рисунке.
+                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
                         </p>
                         <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks2.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks7.png" alt="">
                     </div>
                 </div>
             </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Так же после успешной установки, проект сам откроется в браузере и запуститься.
-            </p>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks3.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks8.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Результат</h4>
                         <p>
-                            Если вы видите то что изображено на рисунке, и у вас работает порт localhost:3000, то всё супер.
-                        </p>
+                            Вид страницы будет выглядеть так как показано на рисунке
                         <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -123,10 +84,10 @@
 <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
-            <a href="{{ route('threepagesSpa') }}">
+            <a href="{{ route('fivepagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
-                        <h1>3</h1>
+                        <h1>5</h1>
                     </div>
                 </div>
             </a>
