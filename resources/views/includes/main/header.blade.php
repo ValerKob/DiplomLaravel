@@ -28,7 +28,7 @@
                                 <!-- <li class="nav-item"><a class="nav-link" href="portfolio-details.html">В разработке</a></li> -->
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('testSpa') }}">Проверка знаний</a></li>
+                        <li class="nav-item @if(request()->is('testSpa')) active @endif"><a class="nav-link" href="{{ route('testSpa') }}">Проверка знаний</a></li>
                         <!-- <li class="nav-item @if(request()->is('profile')) active @endif">
                             <a class="nav-link" href="{{ route('profile') }}">Кабинет</a>
                         </li> -->

@@ -11,7 +11,7 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h3 style="color: #fff;">Итоги</h2>
+                <h3 style="color: #fff;">6 Доделываем задания</h2>
             </div>
         </div>
     </div>
@@ -23,44 +23,79 @@
     <div class="container">
         <div class="portfolio_details_inner">
             <div class="row">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Итоги</h4>
-                        <p>
-                            По резултатам, мы получаем готовый проект на ReactSPA!
-                        <p>
-                            Все исходники и результаты проекта я выгружу на хостинг, а все материалы вы модеже получить по это ссылве
-                        </p>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks12.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Скачать ПРОЕКТ</span></a>
+                            Теперь откроем задание и посмотрим что нужно сделать.
                         <p>
-                            <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Посмотреть результаты</span></a>
-                        </p>
+                            Как мы видим, в заданий сказано, разаботать Функционал администратора: <br>
+                            ● Регистрация новых пользователей в системе;<br>
+                            ● Создание/открытие/закрытие смен;<br>
+                            ● Назначение/снятие работников на смены;<br>
+                            ● Просмотр всех заказов определенной смены;<br>
+                            ● Увольнение работников;<br>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <iframe class="video" width="1024" height="576" src="https://www.youtube.com/embed/GNrdg3PzpJQ" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p>
+                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
+                        </p>
+                        <p>
+                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks13.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks15.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Посмотреть видео ролик</h4>
+                        <h4 class="text-uppercase">Результат</h4>
                         <p>
-                            Вы можете так же посмотреть видео ролик
-                        </p>
+                            Вид страницы будет выглядеть так как показано на рисунке
+                        <p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!--================End Portfolio Details Area =================-->
+<h1 class="text-center mb-5">Дальше -></h1>
+<h5 class="text-center mb-5">Урок №:</h5>
+<!--================ Srart Brand Area =================-->
+<section class="brand_area section_gap_bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <a href="{{ route('sevenpagesSpa') }}">
+                <div class="single-brand-item d-table">
+                    <div class="d-table-cell text-center">
+                        <h1>7</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!--================ End Brand Area =================-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
     function copyToClipboard(element) {
@@ -72,12 +107,6 @@
     }
 </script>
 <style>
-    .video {
-        width: 100%;
-        height: auto;
-        max-height: 100%;
-    }
-
     #DIV_1 {
         block-size: 104px;
         border-block-end-color: rgb(229, 231, 235);
