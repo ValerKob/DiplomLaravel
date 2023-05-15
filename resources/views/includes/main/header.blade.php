@@ -19,16 +19,16 @@
                             <a class="nav-link" href="{{ route('main') }}">Главная</a>
                         </li>
                         <li class="nav-item submenu dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Страницы</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение</a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item @if(request()->is('about')) active @endif">
                                     <a class="nav-link" href="{{ route('about') }}">Что такое SPA?</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('coursesSpa') }}">Разработка SPA</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('testing') }}">Тестирование</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio-details.html">В разработке</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="portfolio-details.html">В разработке</a></li> -->
                             </ul>
                         </li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('testSpa') }}">Проверка знаний</a></li>
                         <!-- <li class="nav-item @if(request()->is('profile')) active @endif">
                             <a class="nav-link" href="{{ route('profile') }}">Кабинет</a>
                         </li> -->
