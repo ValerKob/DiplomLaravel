@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks9.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks12.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -34,9 +34,12 @@
                         <p>
                             Теперь откроем задание и посмотрим что нужно сделать.
                         <p>
-                            Как мы видим, в заданий сказано, разаботать Функционал повара: <br>
-                            ● Просмотр заказов, принятых от клиентов;<br>
-                            ● Изменение статуса заказа на «готовится» и «готов».<br>
+                            Как мы видим, в заданий сказано, разаботать Функционал администратора: <br>
+                            ● Регистрация новых пользователей в системе;<br>
+                            ● Создание/открытие/закрытие смен;<br>
+                            ● Назначение/снятие работников на смены;<br>
+                            ● Просмотр всех заказов определенной смены;<br>
+                            ● Увольнение работников;<br>
                     </div>
                 </div>
             </div>
@@ -53,14 +56,14 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks10.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks13.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks11.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks14.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">

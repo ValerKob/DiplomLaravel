@@ -11,7 +11,7 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h3 style="color: #fff;">4 Приступаем к заданию</h2>
+                <h3 style="color: #fff;">5 Доделываем задания</h2>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks6.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks9.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -34,11 +34,9 @@
                         <p>
                             Теперь откроем задание и посмотрим что нужно сделать.
                         <p>
-                            Как мы видим, в заданий сказано, разаботать Функционал официанта: <br>
-                            ● Создание нового заказа;<br>
-                            ● Добавление/удаление позиций из заказа;<br>
-                            ● Просмотр всех принятых им заказов за смену;<br>
-                            ● Изменение статуса заказа на «отменен» и «оплачен».<br>
+                            Как мы видим, в заданий сказано, разаботать Функционал повара: <br>
+                            ● Просмотр заказов, принятых от клиентов;<br>
+                            ● Изменение статуса заказа на «готовится» и «готов».<br>
                     </div>
                 </div>
             </div>
@@ -55,14 +53,14 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks7.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks10.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks8.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks11.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -84,10 +82,10 @@
 <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
-            <a href="{{ route('fivepagesSpa') }}">
+            <a href="{{ route('sixpagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
-                        <h1>5</h1>
+                        <h1>6</h1>
                     </div>
                 </div>
             </a>

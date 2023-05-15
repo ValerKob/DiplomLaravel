@@ -11,7 +11,6 @@
 <!--================ Start Home Banner Area =================-->
 <section class="home_banner_area" style="
     z-index: 1;
-    background: url(../assets/img/bannerCopy/home-banner.png) no-repeat top center;
     background-position: center;
     background-size: cover;">
     <div class="banner_inner">
@@ -19,13 +18,12 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="banner_content">
-                        <h3 class="text-uppercase" style="font-weight: 600; margin-right: -40px">Привет</h3>
-                        <h2 class="text-uppercase">Это учебник<b style="color: black;"></b>
+                        <h2 class="text-uppercase" style="font-weight: 600; margin-right: -40px">Электронное пособие</h2>
                         </h2>
-                        <h5 class="text-uppercase">В этом учебнике я расскажу про то как пользоваться SPA и многое другое</h5>
+                        <h5 class="text-uppercase">Разработка одностраничного веб-приложения</h5>
                         <div class="d-flex align-items-center">
-                            <a class="primary_btn" href="#about"><span>Подробнее</span></a>
-                            <a class="primary_btn tr-bg" href="../assets/files/SPA.docx" download=""><span>Скачать</span></a>
+                            <!-- <a class="primary_btn" href="#about"><span>Подробнее</span></a> -->
+                            <!-- <a class="primary_btn tr-bg" href="../assets/files/SPA.docx" download=""><span>Скачать</span></a> -->
                         </div>
                     </div>
                 </div>
@@ -41,7 +39,7 @@
 <!--================ End Home Banner Area =================-->
 
 <!--================ Start About Us Area =================-->
-<div id="about"></div>
+<!-- <div id="about"></div>
 <section class="about_area section_gap">
     <div class="container">
         <div class="row justify-content-start align-items-center">
@@ -62,22 +60,22 @@
                         Я FullStack Web-разработчик, опыт программирования
                         в Web-технологиях на 2023 год, уже более 5 лет.
                     </p> -->
-                    <p>
-                        Этот курс или дневник по SPA, сделан для того,
-                        чтобы вы немного больше могли понять и погрузиться
-                        в Web-программирование, чтобы вы поняли как Web прекрасен
-                        и удивителен, так как Web - это мир безграничных возможностей!
-                    </p>
-                    <a class="primary_btn" href="../assets/files/SPA.docx" download><span>Скачать</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- <p>
+    Этот курс или дневник по SPA, сделан для того,
+    чтобы вы немного больше могли понять и погрузиться
+    в Web-программирование, чтобы вы поняли как Web прекрасен
+    и удивителен, так как Web - это мир безграничных возможностей!
+</p>
+<a class="primary_btn" href="../assets/files/SPA.docx" download><span>Скачать</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>  -->
 <!--================ End About Us Area =================-->
 
 <!--================ Srart Brand Area =================-->
-<section class="brand_area section_gap_bottom">
+<!-- <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -155,21 +153,21 @@
                     <div class="call-now d-flex">
                         <div>
                             <!-- <span class="fa fa-phone"></span> -->
-                        </div>
-                        <div class="ml-15">
-                            <p>Авторизуйтесь, чтобы получить полный доступ</p>
-                            <!-- <h3>+7 (960) 000 46 12</h3> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- </div>
+<div class="ml-15">
+    <p>Авторизуйтесь, чтобы получить полный доступ</p>
+    <!-- <h3>+7 (960) 000 46 12</h3> -->
+<!-- </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>  -->
 <!--================ End Brand Area =================-->
 
 <!--================ Start Features Area =================-->
-<section class="features_area">
+<!-- <section class="features_area">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
@@ -224,7 +222,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--================ End Features Area =================-->
 
 <!--================ Start Testimonial Area =================-->

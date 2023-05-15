@@ -11,7 +11,7 @@
     <div class="banner_inner d-flex align-items-center">
         <div class="container">
             <div class="banner_content text-center">
-                <h3 style="color: #fff;">3 Работа с NavLink</h2>
+                <h3 style="color: #fff;">3 Приступаем к заданию</h2>
             </div>
         </div>
     </div>
@@ -22,53 +22,23 @@
 <section class="portfolio_details_area section_gap">
     <div class="container">
         <div class="portfolio_details_inner">
-            <p style="text-indent: 20px;">
-                Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого нам понадопится тег <a href="">NavLink</a>, чтобы его установить нужно ввестив терминал следующую команду
-            </p>
-            <div id="DIV_1">
-                <div id="DIV_2">
-                    <div id="DIV_3">
-                        <div id="DIV_4">
-                            <svg id="svg_5">
-                                <path id="path_6">
-                                </path>
-                            </svg> Terminal
-                        </div>
-                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                            <button id="BUTTON_8">
-                            </button>
-                            <svg id="svg_9">
-                                <path id="path_10">
-                                </path>
-                                <path id="path_11">
-                                </path>
-                            </svg>
-                            <!-- -->
-                            Copy
-                        </div>
-                    </div>
-                </div>
-                <div id="DIV_12">
-                    npm i react-router-dom -save
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                После того как вы её в вели, в файле package.json должен появить тег "react-router-dom": "^4.3.1", если всё так, то всё супер.
-            </p>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks4.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks6.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
+                        <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            Дальше как изображено на рисунке создадим котрлоллер и две страницы Test и Glav.
+                            Теперь откроем задание и посмотрим что нужно сделать.
                         <p>
-                            Проделайте всё как на рисунке, благодаря этому у вас всё должно получиться.
-                        </p>
+                            Как мы видим, в заданий сказано, разаботать Функционал официанта: <br>
+                            ● Создание нового заказа;<br>
+                            ● Добавление/удаление позиций из заказа;<br>
+                            ● Просмотр всех принятых им заказов за смену;<br>
+                            ● Изменение статуса заказа на «отменен» и «оплачен».<br>
                     </div>
                 </div>
             </div>
@@ -76,16 +46,31 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Если у вас всё хорошо получилось, то на рисунке показана страница которая будет в результате получина, в конце курса я скину все исходники.
+                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
                         </p>
                         <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks5.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks7.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks8.png" alt="" style="border: 1px solid #000;">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Результат</h4>
+                        <p>
+                            Вид страницы будет выглядеть так как показано на рисунке
+                        <p>
                     </div>
                 </div>
             </div>
