@@ -46,20 +46,19 @@
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <iframe class="video" width="1024" height="576" src="https://www.youtube.com/embed/GNrdg3PzpJQ" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe class="video" width="100" height="576" src="https://www.youtube.com/embed/VA6ZtniXgB8" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Посмотреть видео ролик</h4>
-                        <p>
-                            Вы можете так же посмотреть видео ролик
-                        </p>
+                    <div class="offset-lg-1 col-lg-5">
+                        <div class="portfolio_right_text mt-30">
+                            <h4 class="text-uppercase">Посмотреть видео ролик</h4>
+                            <p>
+                                Вы можете так же посмотреть видео ролик
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
