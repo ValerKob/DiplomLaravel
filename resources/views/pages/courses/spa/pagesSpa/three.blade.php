@@ -3,24 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
-<!--================ Start Banner Area =================-->
-<section class="banner_area" style="
-  position: relative;
-  z-index: 1;
-  min-height: 485px;">
-    <div class="banner_inner d-flex align-items-center">
-        <div class="container">
-            <div class="banner_content text-center">
-                <h3 style="color: #fff;">3 Приступаем к заданию</h2>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Banner Area =================-->
-
 <!--================Start Portfolio Details Area =================-->
 <section class="portfolio_details_area section_gap">
     <div class="container">
+        <div class="text-center" style="margin: -50px 0 50px 0;">
+            <h2 class="text-left" style="color: #000;">3 Урок <br>Приступаем к заданию</h2>
+        </div>
         <div class="portfolio_details_inner">
             <div class="row">
                 <div class="col-lg-6">
@@ -78,8 +66,7 @@
     </div>
 </section>
 <!--================End Portfolio Details Area =================-->
-<h1 class="text-center mb-5">Дальше -></h1>
-<h5 class="text-center mb-5">Урок №:</h5>
+<h1 class="text-center mb-5">Урок №:</h1>
 <!--================ Srart Brand Area =================-->
 <section class="brand_area section_gap_bottom">
     <div class="container">

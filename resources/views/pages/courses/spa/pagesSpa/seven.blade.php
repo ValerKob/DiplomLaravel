@@ -3,21 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-<!--================ Start Banner Area =================-->
-<section class="banner_area" style="
-  position: relative;
-  z-index: 1;
-  min-height: 485px;">
-    <div class="banner_inner d-flex align-items-center">
-        <div class="container">
-            <div class="banner_content text-center">
-                <h3 style="color: #fff;">Итоги</h2>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Banner Area =================-->
-
 <!--================Start Portfolio Details Area =================-->
 <section class="portfolio_details_area section_gap">
     <div class="container">

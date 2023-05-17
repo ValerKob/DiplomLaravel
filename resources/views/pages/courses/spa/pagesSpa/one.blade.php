@@ -3,29 +3,17 @@
 @section('title', 'Home')
 
 @section('content')
-<!--================ Start Banner Area =================-->
-<section class="banner_area" style="
-  position: relative;
-  z-index: 1;
-  min-height: 485px;">
-    <div class="banner_inner d-flex align-items-center">
-        <div class="container">
-            <div class="banner_content text-center">
-                <h3 style="color: #fff;">1 Урок Начало работы</h2>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Banner Area =================-->
-
 <!--================Start Portfolio Details Area =================-->
 <section class="portfolio_details_area section_gap">
     <div class="container">
+        <div class="text-center" style="margin: -50px 0 50px 0;">
+            <h2 class="text-left" style="color: #000;">1 Урок <br>Начало работы</h2>
+        </div>
         <div class="portfolio_details_inner">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
+                    <div class="left_img text-center">
+                        <img style="width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -40,7 +28,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px;">
-                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="#">npx create-next-app</a>
+                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="https://create-react-app.dev/docs/getting-started/">npx create-next-app</a>
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -80,7 +68,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидить на рисунке.
+                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидеть на рисунке.
                         </p>
                         <p>
                             Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
@@ -117,8 +105,7 @@
     </div>
 </section>
 <!--================End Portfolio Details Area =================-->
-<h1 class="text-center mb-5">Дальше -></h1>
-<h5 class="text-center mb-5">Урок №:</h5>
+<h1 class="text-center mb-5">Урок №:</h1>
 <!--================ Srart Brand Area =================-->
 <section class="brand_area section_gap_bottom">
     <div class="container">

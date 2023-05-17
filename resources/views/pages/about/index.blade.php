@@ -3,42 +3,29 @@
 @section('title', 'About')
 
 @section('content')
-<!--================ Start Banner Area =================-->
-<section class="banner_area" style="
-  position: relative;
-  z-index: 1;
-  min-height: 485px;">
-    <div class="banner_inner d-flex align-items-center" style="
-      position: relative;
-    overflow: hidden;
-    width: 100%;
-    min-height: 485px;
-    background: url(../assets/img/bannerCopy/common-banner.png) no-repeat right bottom;
-    background-size: 90% 85%;
-    width: 98%;
-    z-index: 1;">
-        <div class="container">
-            <div class="banner_content text-center">
-                <h2>Что такое SPA?</h2>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Banner Area =================-->
 
 <!--================Start Portfolio Details Area =================-->
-<section class="portfolio_details_area section_gap">
+<section class="portfolio_details_area section_gap" style="padding-top: 100px;">
     <div class="container">
-        <div class="portfolio_details_inner">
+        <div class="text-center" style="margin: 0 0 50px 0;">
+            <h2 style="color: #000;">Что такое SPA?</h2>
+        </div>
+        <div class="">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/portfolio/portfolio-details.jpg" alt="">
+                        <img class="img-fluid" style="width: 700px; height: 500px" src="../assets/img/about/SPA-cycle-1111.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
+                    <div class="mt-30">
                         <h4 class="text-uppercase">Single-Page Application</h4>
+                        <style>
+                            p {
+                                text-align: justify;
+                                font-size: 20px;
+                            }
+                        </style>
                         <p>
                             Одностраничное приложение (SPA) — это тип веб-приложения, которое работает на одной веб-странице, динамически обновляя содержимое на странице, не требуя полной перезагрузки страницы. Вместо того, чтобы загружать несколько страниц с отдельными URL-адресами, SPA обеспечивает беспрепятственный пользовательский интерфейс, обновляя содержимое текущей страницы на основе действий пользователя, таких как нажатие на ссылку или отправка формы.
                         </p>
@@ -57,6 +44,11 @@
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
+                        <style>
+                            p {
+                                text-align: justify;
+                            }
+                        </style>
                         <p>
                             Управление состоянием в SPA-приложениях реализуется с помощью библиотек управления состоянием, таких как Redux, Vuex и NgRx. Эти библиотеки обеспечивают механизм управления состоянием приложения и связывают состояния различных компонентов между собой.
                         </p>
@@ -67,7 +59,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/portfolio/p1.jpg" alt="">
+                        <img class="img-fluid" style="width: 700px; height: 300px" src="../assets/img/about/sostoianie.jpg" alt="">
                     </div>
                 </div>
             </div>

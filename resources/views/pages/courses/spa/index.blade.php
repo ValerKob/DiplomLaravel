@@ -3,12 +3,12 @@
 @section('title', 'Home')
 
 @section('content')
-<section class="about_area section_gap" style="padding-top: 150px;">
+<section class="about_area section_gap" style="padding-top: 150px; padding-bottom: 0;">
     <div class="container">
-        <div class="row justify-content-start align-items-center">
+        <div class="row justify-content-start">
             <div class="col-lg-5">
                 <div class="about_img">
-                    <img class="" src="../assets/img/about-us.png" alt="" />
+                    <img style="margin-left: 100px; width: 500px; height: 500px" class="" src="../assets/img/about-us.png" alt="" />
                 </div>
             </div>
 
@@ -23,7 +23,7 @@
             </p> -->
                     <p>
                         Разрабатывать SPA, будем,
-                        на примере 3 задания из чемпионата WorldSkilsRussia!!!
+                        на примере 3 задания!!!
                         В этом электронном пособий будет подробно рассказано и показано как можно,
                         решать задания, так же по ссылочке вы можете счазать это задание,
                         и проходить в месте со мной!!!

@@ -3,27 +3,15 @@
 @section('title', 'Home')
 
 @section('content')
-<!--================ Start Banner Area =================-->
-<section class="banner_area" style="
-  position: relative;
-  z-index: 1;
-  min-height: 485px;">
-    <div class="banner_inner d-flex align-items-center">
-        <div class="container">
-            <div class="banner_content text-center">
-                <h3 style="color: #fff;">2 Работа с NavLink</h2>
-            </div>
-        </div>
-    </div>
-</section>
-<!--================ End Banner Area =================-->
-
 <!--================Start Portfolio Details Area =================-->
 <section class="portfolio_details_area section_gap">
     <div class="container">
+        <div class="text-center" style="margin: -50px 0 50px 0;">
+            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа с NavLink</h2>
+        </div>
         <div class="portfolio_details_inner">
             <p style="text-indent: 20px;">
-                Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого нам понадопится тег <a href="">NavLink</a>, чтобы его установить нужно ввестив терминал следующую команду
+                Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого нам понадобится тег <a href="">NavLink</a>, чтобы его установить нужно ввести в терминал следующую команду
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -53,7 +41,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px;" class="mt-4">
-                После того как вы её в вели, в файле package.json должен появить тег "react-router-dom": "^4.3.1", если всё так, то всё супер.
+                После того как вы её ввели, в файле package.json должен появить тег "react-router-dom": "^4.3.1", если всё так, то всё супер.
             </p>
             <div class="row">
                 <div class="col-lg-6">
@@ -65,7 +53,7 @@
                     <div class="portfolio_right_text mt-30">
                         <h4 class="text-uppercase">Установка</h4>
                         <p>
-                            Дальше как изображено на рисунке создадим котрлоллер и две страницы Test и Glav.
+                            Дальше как изображено на рисунке создадим контроллер и две страницы Test и Glav.
                         <p>
                             Проделайте всё как на рисунке, благодаря этому у вас всё должно получиться.
                         </p>
@@ -76,7 +64,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Если у вас всё хорошо получилось, то на рисунке показана страница которая будет в результате получина, в конце курса я скину все исходники.
+                            Если у вас всё хорошо получилось, то на рисунке показана страница которая будет в результате получина.
                         </p>
                         <p>
                             Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
@@ -93,8 +81,7 @@
     </div>
 </section>
 <!--================End Portfolio Details Area =================-->
-<h1 class="text-center mb-5">Дальше -></h1>
-<h5 class="text-center mb-5">Урок №:</h5>
+<h1 class="text-center mb-5">Урок №:</h1>
 <!--================ Srart Brand Area =================-->
 <section class="brand_area section_gap_bottom">
     <div class="container">
