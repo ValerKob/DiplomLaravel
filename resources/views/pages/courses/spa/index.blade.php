@@ -61,7 +61,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="{{ route('threepagesSpa') }}">
+                        <a href="{{ route('oneMainpagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>3</h1>
@@ -70,7 +70,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="{{ route('fourpagesSpa') }}">
+                        <a href="{{ route('twoMainpagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>4</h1>
@@ -101,6 +101,24 @@
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>7</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="{{ route('sevenpagesSpa') }}">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <h1>8</h1>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <a href="{{ route('sevenpagesSpa') }}">
+                            <div class="single-brand-item d-table">
+                                <div class="d-table-cell text-center">
+                                    <h1>9</h1>
                                 </div>
                             </div>
                         </a>

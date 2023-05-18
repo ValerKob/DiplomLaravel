@@ -11,10 +11,9 @@
 
              <div class="modal-content-container">
 
-                 <h1>Congratulations, Quiz Completed.</h1>
+                 <h1>Поздравляю, тест завершен.</h1>
 
                  <div class="grade-details">
-                     <p>Попытки : 10</p>
                      <p>Неправильные ответы : <span id="wrong-answers"></span></p>
                      <p>Правильные ответы : <span id="right-answers"></span></p>
                      <p>Класс : <span id="grade-percentage"></span>%</p>
@@ -31,8 +30,8 @@
          <div class="game-quiz-container">
 
              <div class="game-details-container">
-                 <h1>Счет : <span id="player-score"></span> / 10</h1>
-                 <h1>Вопрос : <span id="question-number"></span> / 10</h1>
+                 <h1>Счет : <span id="player-score"></span> / 25</h1>
+                 <h1>Вопрос : <span id="question-number"></span> / 25</h1>
              </div>
 
              <div class="game-question-container">
@@ -81,7 +80,7 @@
              </div>
 
              <div class="next-button-container">
-                 <button onclick="handleNextQuestion()">Следующий вопрос</button>
+                 <button onclick="handleNextQuestion()" style="width: 200px;">Следующий вопрос</button>
              </div>
 
          </div>
@@ -402,20 +401,20 @@
 
              {
                  question: "Где правильно выведен компонент через рендер?",
-                 optionA: "<Test>",
-                 optionB: "<Test />",
-                 optionC: "</Test>",
-                 optionD: "</ Test>",
+                 optionA: "'<'Test>",
+                 optionB: "'<'Test />",
+                 optionC: "'<'/Test>",
+                 optionD: "'<'/ Test>",
                  correctOption: "optionB"
              },
 
              {
-                 question: "Чем свойства отличаются от состояний?",
-                 optionA: "Свойства для работы со значениями",
-                 optionB: "Свойства можно изменять, состояния нельзя",
-                 optionC: "Состояния для работы со значениями",
-                 optionD: "Состояния можно изменять, свойства нельзя",
-                 correctOption: "optionD"
+                 question: "Как много можно делать запросов к серверу?",
+                 optionA: "Не ограниченное колличество",
+                 optionB: "Всего 1",
+                 optionC: "Всего 5",
+                 optionD: "Всего 25",
+                 correctOption: "optionA"
              },
 
              {
@@ -437,8 +436,8 @@
              },
 
              {
-                 question: "Где правильно создан компонент ",
-                 optionA: "class App extends React.Component {}",
+                 question: "Где правильно создан компонент?",
+                 optionA: "class App React.Component {}",
                  optionB: "class App extends Component {}",
                  optionC: "React.Component {}",
                  optionD: "class App {}",
@@ -464,7 +463,7 @@
              },
 
              {
-                 question: "Как обратится к свойству weight? <Test weight = 203 height = 182 / > ",
+                 question: "Как обратится к свойству weight?",
                  optionA: "{props.weight}",
                  optionB: "{this.prop.weight}",
                  optionC: "{prop.weight}",
@@ -475,7 +474,7 @@
              {
                  question: "Где правильно передена функция в качестве свойства?",
                  optionA: "argument={this.someFunction ()}",
-                 optionB: "argument=(this.someFunction)",
+                 optionB: "argument=(this.someFunction {})",
                  optionC: "argument={someFunction}",
                  optionD: "argument={this.someFunction}",
                  correctOption: "optionD"
@@ -484,7 +483,7 @@
              {
                  question: "От какого класса идет наследование всех компонентов?",
                  optionA: "Component",
-                 optionB: "ReactComponent",
+                 optionB: "ReactComponentDom",
                  optionC: "React.Component",
                  optionD: "ReactComponent",
                  correctOption: "optionC"
@@ -498,6 +497,111 @@
                  optionD: "Неограниченное количество",
                  correctOption: "optionA"
              },
+             {
+                 question: "Какой командой установить зависимость 'ReactRouteDom'?",
+                 optionA: "npm i react-router-dom -save",
+                 optionB: "npm i react-router-home -save",
+                 optionC: "npm i react-router",
+                 optionD: "npm i react",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "Какой командой установить зависимость 'ReactRouteDom'?",
+                 optionA: "npm i react-router-dom -save",
+                 optionB: "npm i react-router-home -save",
+                 optionC: "npm i react-router",
+                 optionD: "npm i react",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "Какой командой установить composer?",
+                 optionA: "composer i",
+                 optionB: "com i",
+                 optionC: "npm start",
+                 optionD: "php artisan serve",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "Какой командой накатить миграций в базу данны в Laravel?",
+                 optionA: "composer i",
+                 optionB: "migrate",
+                 optionC: "php artisan",
+                 optionD: "php artisan migrate --seed",
+                 correctOption: "optionD"
+             },
+             {
+                 question: "Какой командой установить ключи генераций в Laravel?",
+                 optionA: "npm i react-router-dom -save",
+                 optionB: "php artisan key:generate",
+                 optionC: "npm i react",
+                 optionD: "php artisan migrate --seed",
+                 correctOption: "optionB"
+             },
+             {
+                 question: "Какой командой запустить сервер в Laravel?",
+                 optionA: "composer",
+                 optionB: "php artisan serve",
+                 optionC: "npm start",
+                 optionD: "php artisan --seed",
+                 correctOption: "optionB"
+             },
+             {
+                 question: "На каком порту по умолчанию запуститься сервер в Laravel?",
+                 optionA: "http://127.0.0.1:8000",
+                 optionB: "https://localhost/1200",
+                 optionC: "local",
+                 optionD: "newSite",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "На каком порту по умолчанию запуститься сервер в React?",
+                 optionA: "http://127.0.0.1:3000",
+                 optionB: "https://localhost/2100",
+                 optionC: "localNew",
+                 optionD: "SiteNew",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "Какой командой получить весь список API в Laravel?",
+                 optionA: "php artisan serve",
+                 optionB: "php artisan route:list",
+                 optionC: "composer",
+                 optionD: "php artisan",
+                 correctOption: "optionB"
+             },
+             {
+                 question: "В каком файле храниться вся информация об API, в папке 'routes'?",
+                 optionA: "web.php",
+                 optionB: "api.php",
+                 optionC: "channels.php",
+                 optionD: "console.php",
+                 correctOption: "optionB"
+             },
+
+             {
+                 question: "Какой командой создать проект на React?",
+                 optionA: "composer",
+                 optionB: "php artisan",
+                 optionC: "npx create-react-app my-app",
+                 optionD: "npx create-react",
+                 correctOption: "optionC"
+             },
+             {
+                 question: "Какой командой перейти в какую-нибудь папку?",
+                 optionA: "info",
+                 optionB: "del",
+                 optionC: "cd",
+                 optionD: "console",
+                 correctOption: "optionC"
+             },
+             {
+                 question: "В каком файле должены появить упоминания об react-router-dom?",
+                 optionA: "react",
+                 optionB: "console.php",
+                 optionC: "package.json",
+                 optionD: "App.jsx",
+                 correctOption: "optionC"
+             },
          ]
 
 
@@ -505,7 +609,7 @@
 
          function handleQuestions() {
              //function to shuffle and push 10 questions to shuffledQuestions array
-             while (shuffledQuestions.length <= 9) {
+             while (shuffledQuestions.length <= 24) {
                  const random = questions[Math.floor(Math.random() * questions.length)]
                  if (!shuffledQuestions.includes(random)) {
                      shuffledQuestions.push(random)
@@ -584,7 +688,7 @@
              unCheckRadioButtons()
              //delays next question displaying for a second
              setTimeout(() => {
-                 if (indexNumber <= 9) {
+                 if (indexNumber <= 24) {
                      NextQuestion(indexNumber)
                  } else {
                      handleEndGame()
@@ -615,17 +719,17 @@
              let remarkColor = null
 
              // condition check for player remark and remark color
-             if (playerScore <= 3) {
-                 remark = "Bad Grades, Keep Practicing."
+             if (playerScore <= 7) {
+                 remark = ""
                  remarkColor = "red"
-             } else if (playerScore >= 4 && playerScore < 7) {
-                 remark = "Average Grades, You can do better."
+             } else if (playerScore >= 11 && playerScore < 17) {
+                 remark = ""
                  remarkColor = "orange"
-             } else if (playerScore >= 7) {
-                 remark = "Excellent, Keep the good work going."
+             } else if (playerScore >= 17) {
+                 remark = ""
                  remarkColor = "green"
              }
-             const playerGrade = (playerScore / 10) * 100
+             const playerGrade = (playerScore / 25) * 100
 
              //data to display to score board
              document.getElementById('remarks').innerHTML = remark

@@ -4,68 +4,83 @@
 
 @section('content')
 <!--================Start Portfolio Details Area =================-->
-<section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
+<section class="portfolio_details_area section_gap">
     <div class="container">
+        <style>
+            p {
+                text-align: justify;
+                font-size: 20px;
+            }
+        </style>
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">6 Урок <br>Доделываем задания</h2>
+            <h2 class="text-left" style="color: #000;">4 Урок <br>Работа с NavLink</h2>
         </div>
+        <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+            Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого нам понадобится тег <a href="">NavLink</a>, чтобы его установить нужно ввести в терминал следующую команду
+        </p>
         <div class="">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks12.png" alt="" style="border: 1px solid #000;">
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
                     </div>
                 </div>
+                <div id="DIV_12">
+                    npm i react-router-dom -save
+                </div>
+            </div>
+            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+                После того как вы её ввели, в файле package.json должен появить тег "react-router-dom": "^4.3.1", если всё так, то всё супер.
+            </p>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks4.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <h4 class="text-uppercase">Установка</h4>
+                        <p>
+                            Дальше как изображено на рисунке создадим контроллер и две страницы Test и Glav.
+                        <p>
+                            Проделайте всё как на рисунке, благодаря этому у вас всё должно получиться.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
-                        <style>
-                            p {
-                                text-align: justify;
-                                font-size: 20px;
-                            }
-                        </style>
-                        <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            Теперь откроем задание и посмотрим что нужно сделать.
-                        <p>
-                            Как мы видим, в заданий сказано, разаботать Функционал администратора: <br>
-                            ● Регистрация новых пользователей в системе;<br>
-                            ● Создание/открытие/закрытие смен;<br>
-                            ● Назначение/снятие работников на смены;<br>
-                            ● Просмотр всех заказов определенной смены;<br>
-                            ● Увольнение работников;<br>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
+                            Если у вас всё хорошо получилось, не набывайте, что чтобы вывести тег нужно использовать правильный синтец вывода компмоненты "'
+                            <'Test />'", так же важно не забывать, "Состояния можно изменять, свойства нельзя", то на рисунке показана страница которая будет в результате получина.
                         </p>
                         <p>
-                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
+                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks13.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks15.png" alt="" style="border: 1px solid #000;">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Результат</h4>
-                        <p>
-                            Вид страницы будет выглядеть так как показано на рисунке
-                        <p>
+                        <img class="img-fluid" src="../assets/img/tasks/tasks5.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
             </div>
@@ -81,10 +96,10 @@
 <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
-            <a href="{{ route('sevenpagesSpa') }}">
+            <a href="{{ route('threepagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
-                        <h1>9</h1>
+                        <h1>5</h1>
                     </div>
                 </div>
             </a>

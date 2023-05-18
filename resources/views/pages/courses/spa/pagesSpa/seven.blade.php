@@ -4,12 +4,18 @@
 
 @section('content')
 <!--================Start Portfolio Details Area =================-->
-<section class="portfolio_details_area section_gap">
+<section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
-        <div class="portfolio_details_inner">
+        <div class="">
             <div class="row">
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
+                    <div class="mt-30">
+                        <style>
+                            p {
+                                text-align: justify;
+                                font-size: 20px;
+                            }
+                        </style>
                         <h4 class="text-uppercase">Итоги</h4>
                         <p>
                             По резултатам, мы получаем готовый проект на ReactSPA!
@@ -28,13 +34,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <iframe class="video" width="100" height="576" src="https://www.youtube.com/embed/VA6ZtniXgB8" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <div class="offset-lg-1 col-lg-5">
-                        <div class="portfolio_right_text mt-30">
+                        <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
                             <h4 class="text-uppercase">Посмотреть видео ролик</h4>
                             <p>
                                 Вы можете так же посмотреть видео ролик

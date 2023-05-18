@@ -4,31 +4,98 @@
 
 @section('content')
 <!--================Start Portfolio Details Area =================-->
-<section class="portfolio_details_area section_gap">
+<section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
             <h2 class="text-left" style="color: #000;">1 Урок <br>Начало работы</h2>
         </div>
-        <div class="portfolio_details_inner">
+        <div class="">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img text-center">
-                        <img style="width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
+                        <img style="margin-top: 40px; width: 450px; height: 200px" class="img-fluid" src="../assets/img/tasks/mainOneTasks.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
+                    <div class="mt-30">
+                        <h4 class="text-uppercase">Подготовка</h4>
+                        <style>
+                            p {
+                                text-align: justify;
+                                font-size: 20px;
+                            }
+                        </style>
                         <p>
-                            Откроите вашу IDE, это может быть как VSC или VS и другие!
+                            Прежде чем приступать к работе, для начало разорхивируем весть архив, далее запустим виртулаьный хостинг, у меня это Open Server.
                         <p>
-                            После открытитя, создайте папку в которой будете работать, например так как показано на рисунке.
+                            После запуска сервера, перетащим в папку "domains", папку под название "api_v2-main", как показано на рисунке.
                         </p>
                     </div>
                 </div>
             </div>
-            <p style="text-indent: 20px;">
-                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="https://create-react-app.dev/docs/getting-started/">npx create-next-app</a>
+
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            После того как вы перетащили в папку domains, папку "api_v2-main", откройте проект с помощью вашей IDE, у меня это VSC, после открытия проекта в вашей IDE, откройте файл "README.md", в этом файле показано полная инструкция по установке проекта, первым шагом нужно будет установть "Composer", за тем развернуть весь проект, так же установить всю базу данных в ваш "phpMyAdmin", всё это вы можете у видеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainTwoTasks.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6 ">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 40px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainThreeTasks.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Следующий шаг, это открыть проект через косноль, у меня встроенный терминал в OpenServer, открываю папку в терминале, туда я поподаю по средством ввода комманд, "cd 'названи папки'", так же вы можете попаст туда, посредством нажатия на TAB, консольсама будет подсказывать, а октрыть косноль можно очень просто, нажать на нижней панеле на флажёк, правой кнопкой мыши, навести на дополнительно и выбрать пункт "КОНСОЛЬ", как показано на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Прежде чем вводить комманды в косноль и продолжать равзворачивать косноль, нудно изменить параметры в файле ".env", переименйте файл ".env.example" в ".env", теперь измените константу "DB_PASSWORD=root" на "DB_PASSWORD=", это при условий что у вас нету пароля в phphMyAdmin, как показано на рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainFourTasks.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6 ">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 30px; width: 450px; height: 400px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/mainFvieTasks.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Так же, перед запуском команд, нужно зайти в phpMyAdmin, и создать там базу данных под названием "api_v2", для этого нажмём на иконку зелёного флажка в правой нижней части компьютера, наведём курсором мыши на вкладку "дополнительно", и выберем из списка phpMyAdmin, дальше зайдём в базу данных и создадим базу данных под название "api_v2", с кодировкой "utf8mb4_unicode_ci", как показано на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+                Далее, после проделаных всех дейсвий, вводим все эти команды в косноль, команды вы можете скопировать ниже в блоке под название "Terminal".
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -54,50 +121,27 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    npx create-react-app my-app
+                    composer i
                     <br>
-                    cd my-app
+                    php artisan migrate --seed
                     <br>
-                    npm start
+                    php artisan key:generate
+                    <br>
+                    php artisan serve
                 </div>
             </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Прописывать нужно в консольке Node.js или если у вас есть GitBush, можно и в нём, так же подойдёт встроенная консолька в VSC.
-            </p>
-            <div class="row">
+
+            <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <p>
-                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидеть на рисунке.
-                        </p>
-                        <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            После того как вы ввели все эти команды в консоль, и если у вас нету ошибок и всё хорошо работает, проект сам должен запуститься у вас в проузере на хосте "http://127.0.0.1:8000", если у вас что-то пошло не поплану или вышли какие-то ошибка, попробуйте повторить установку заново, но более внимателно, как выглядит сайт показано на рисунке.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks2.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                Так же после успешной установки, проект сам откроется в браузере и запуститься.
-            </p>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks3.png" alt="">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            Если вы видите то что изображено на рисунке, и у вас работает порт localhost:3000, то всё супер.
-                        </p>
-                        <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
-                        </p>
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainSixTasks.png" alt="">
                     </div>
                 </div>
             </div>
@@ -105,11 +149,14 @@
     </div>
 </section>
 <!--================End Portfolio Details Area =================-->
-<h1 class="text-center mb-5">Урок №:</h1>
+<a class="text-center" style="cursor: pointer;" onclick="window.history.go(-1); return false;">
+    <h1 style=" color: #5b5b5b;">" <"-Назад </h1>
+</a>
+<h3 class="text-center mb-3 mt-5">Урок №:</h3>
 <!--================ Srart Brand Area =================-->
 <section class="brand_area section_gap_bottom">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center ">
             <a href="{{ route('twopagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
@@ -150,7 +197,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 140px;
+        height: 180px;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
@@ -1158,7 +1205,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 70px;
+        height: 100px;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         padding-block-end: 24px;

@@ -30,6 +30,8 @@ Route::view('fourpagesSpa', 'pages.courses.spa.pagesSpa.four')->name('fourpagesS
 Route::view('fivepagesSpa', 'pages.courses.spa.pagesSpa.five')->name('fivepagesSpa');
 Route::view('sixpagesSpa', 'pages.courses.spa.pagesSpa.six')->name('sixpagesSpa');
 Route::view('sevenpagesSpa', 'pages.courses.spa.pagesSpa.seven')->name('sevenpagesSpa');
+Route::view('oneMainpagesSpa', 'pages.courses.spa.pagesSpa.oneMain')->name('oneMainpagesSpa');
+Route::view('twoMainpagesSpa', 'pages.courses.spa.pagesSpa.twoMain')->name('twoMainpagesSpa');
 
 Route::view('testing', 'pages.testing.index')->name('testing');
 Route::view('testSpa', 'pages.testing.testSpa.index')->name('testSpa');

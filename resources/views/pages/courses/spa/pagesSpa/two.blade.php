@@ -4,89 +4,119 @@
 
 @section('content')
 <!--================Start Portfolio Details Area =================-->
-<section class="portfolio_details_area section_gap">
+<section class="portfolio_details_area section_gap" style="padding: 200px 0 50px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа с NavLink</h2>
+            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа проектом и настроика API</h2>
         </div>
-        <div class="portfolio_details_inner">
-            <p style="text-indent: 20px;">
-                Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого нам понадобится тег <a href="">NavLink</a>, чтобы его установить нужно ввести в терминал следующую команду
-            </p>
-            <div id="DIV_1">
-                <div id="DIV_2">
-                    <div id="DIV_3">
-                        <div id="DIV_4">
-                            <svg id="svg_5">
-                                <path id="path_6">
-                                </path>
-                            </svg> Terminal
-                        </div>
-                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                            <button id="BUTTON_8">
-                            </button>
-                            <svg id="svg_9">
-                                <path id="path_10">
-                                </path>
-                                <path id="path_11">
-                                </path>
-                            </svg>
-                            <!-- -->
-                            Copy
-                        </div>
-                    </div>
-                </div>
-                <div id="DIV_12">
-                    npm i react-router-dom -save
-                </div>
-            </div>
-            <p style="text-indent: 20px;" class="mt-4">
-                После того как вы её ввели, в файле package.json должен появить тег "react-router-dom": "^4.3.1", если всё так, то всё супер.
-            </p>
+        <div class="">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks4.png" alt="">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 20px; width: 450px; height: 350px" class="img-fluid" src="../assets/img/tasks/twoMainOneTasks.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
+                    <div class="mt-30">
+                        <h4 class="text-uppercase">API</h4>
+                        <style>
+                            p {
+                                text-align: justify;
+                                font-size: 20px;
+                            }
+                        </style>
                         <p>
-                            Дальше как изображено на рисунке создадим контроллер и две страницы Test и Glav.
+                            Прежде чем приступать к работе, разберёмся что такое API, и как с ним рабоать, а так же разберёмся где он находится в самом проекте, и как посмотреть все порты API через консоль.
                         <p>
-                            Проделайте всё как на рисунке, благодаря этому у вас всё должно получиться.
+                            Для начала, откройте свой проект в VSC, откроите папку "routes", а в ней уже откройте папку "api.php", в этом файле показаны все роуте, а так же какие контроллеры отвечают за дествие конкретных портов, всё это вы можете увидеть на рисунке.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+
+            <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <p>
-                            Если у вас всё хорошо получилось, то на рисунке показана страница которая будет в результате получина.
-                        </p>
-                        <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Теперь осталось лишь посмотреть как обращаться к этим портам, для этого, нужно запустит консоль из нижней панеле через флажек, а дальше открыть проект в консоле, для этого нужно с помощью команд "cd название папки", конечный результат показн на картинке.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks5.png" alt="" style="border: 1px solid #000;">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainThreeTasks.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+                Далее, после проделаных всех дейсвий, нам нужно ввести специальную команду в консоль, чтобы посмотреть все существующие роуты и как к ним обращаться, для этого вы можете скопировать команды из блока "Terminal".
+            </p>
+
+            <div class="portfolio_details_inner">
+                <div id="DIV_1">
+                    <div id="DIV_2">
+                        <div id="DIV_3">
+                            <div id="DIV_4">
+                                <svg id="svg_5">
+                                    <path id="path_6">
+                                    </path>
+                                </svg> Terminal
+                            </div>
+                            <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                                <button id="BUTTON_8">
+                                </button>
+                                <svg id="svg_9">
+                                    <path id="path_10">
+                                    </path>
+                                    <path id="path_11">
+                                    </path>
+                                </svg>
+                                <!-- -->
+                                Copy
+                            </div>
+                        </div>
+                    </div>
+                    <div id="DIV_12">
+                        php artisan route:list
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <div class="left_img text-center">
+                            <img style="margin-top: 20px; width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/twoMainTwoTasks.png" alt="">
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-5 mt-5">
+                        <div class="mt-30">
+                            <h4 class="text-uppercase">API</h4>
+                            <style>
+                                p {
+                                    text-align: justify;
+                                    font-size: 20px;
+                                }
+                            </style>
+                            <p>
+                                Теперь после того как вы ввели команду в консоль, должны показаться все роуты.
+                            <p>
+                                С помощью этих роутев мы будем дальше взаимодействоват со всем сайто, на этом заканчивается наша настроика всего API, сдесь больше ничего не сделать, если у вас возникли какие-нибудь проблемы или ошибки, попробуйте начать всё заново, но внимательно читая, всё API показано на рисунке.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <!--================End Portfolio Details Area =================-->
+<a class="text-center" style="cursor: pointer;" onclick="window.history.go(-1); return false;">
+    <h1 style=" color: #5b5b5b;">" <"-Назад </h1>
+</a>
 <h1 class="text-center mb-5">Урок №:</h1>
 <!--================ Srart Brand Area =================-->
 <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
-            <a href="{{ route('threepagesSpa') }}">
+            <a href="{{ route('oneMainpagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
                         <h1>3</h1>

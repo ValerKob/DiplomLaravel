@@ -7,65 +7,103 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">6 Урок <br>Доделываем задания</h2>
+            <h2 class="text-left" style="color: #000;">3 Урок <br>Начало работы</h2>
         </div>
         <div class="">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks12.png" alt="" style="border: 1px solid #000;">
+                    <div class="left_img text-center">
+                        <img style="width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
+                        <h4 class="text-uppercase">Установка</h4>
                         <style>
                             p {
                                 text-align: justify;
                                 font-size: 20px;
                             }
                         </style>
-                        <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            Теперь откроем задание и посмотрим что нужно сделать.
+                            Откроите вашу IDE, это может быть как VSC или VS и другие!
                         <p>
-                            Как мы видим, в заданий сказано, разаботать Функционал администратора: <br>
-                            ● Регистрация новых пользователей в системе;<br>
-                            ● Создание/открытие/закрытие смен;<br>
-                            ● Назначение/снятие работников на смены;<br>
-                            ● Просмотр всех заказов определенной смены;<br>
-                            ● Увольнение работников;<br>
+                            После открытитя, создайте папку в которой будете работать, например так как показано на рисунке.
+                        </p>
                     </div>
                 </div>
             </div>
+            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="https://create-react-app.dev/docs/getting-started/">npx create-next-app</a>
+            </p>
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
+                    </div>
+                </div>
+                <div id="DIV_12">
+                    npx create-react-app my-app
+                    <br>
+                    cd my-app
+                    <br>
+                    npm start
+                </div>
+            </div>
+            <p style="text-indent: 20px;  margin-top: 40px;">
+                Прописывать нужно в консольке Node.js или если у вас есть GitBush, можно и в нём, так же подойдёт встроенная консолька в VSC.
+            </p>
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
+                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидеть на рисунке.
                         </p>
                         <p>
-                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
+                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks13.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks2.png" alt="">
                     </div>
                 </div>
             </div>
+            <p style="text-indent: 20px; margin-top: 50px; margin-bottom: 50px;">
+                Так же после успешной установки, проект сам откроется в браузере и запуститься.
+            </p>
             <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks15.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks3.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Результат</h4>
                         <p>
-                            Вид страницы будет выглядеть так как показано на рисунке
+                            Если вы видите то что изображено на рисунке, и у вас работает порт localhost:3000, то всё супер.
+                        </p>
                         <p>
+                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -81,10 +119,10 @@
 <section class="brand_area section_gap_bottom">
     <div class="container">
         <div class="row justify-content-center">
-            <a href="{{ route('sevenpagesSpa') }}">
+            <a href="{{ route('twoMainpagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
-                        <h1>9</h1>
+                        <h1>4</h1>
                     </div>
                 </div>
             </a>

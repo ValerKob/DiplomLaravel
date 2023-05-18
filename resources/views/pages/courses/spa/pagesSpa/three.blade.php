@@ -7,9 +7,9 @@
 <section class="portfolio_details_area section_gap">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">3 Урок <br>Приступаем к заданию</h2>
+            <h2 class="text-left" style="color: #000;">5 Урок <br>Приступаем к заданию</h2>
         </div>
-        <div class="portfolio_details_inner">
+        <div class="">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
@@ -17,7 +17,13 @@
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
+                    <div class="mt-30">
+                        <style>
+                            p {
+                                text-align: justify;
+                                font-size: 20px;
+                            }
+                        </style>
                         <h4 class="text-uppercase">Задание</h4>
                         <p>
                             Теперь откроем задание и посмотрим что нужно сделать.
@@ -30,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
@@ -47,10 +53,10 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks8.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/ltasks8.png" alt="" style="width: 450px; height: 350px; border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -66,6 +72,9 @@
     </div>
 </section>
 <!--================End Portfolio Details Area =================-->
+<a class="text-center" style="cursor: pointer;" onclick="window.history.go(-1); return false;">
+    <h1 style=" color: #5b5b5b;">" <"-Назад </h1>
+</a>
 <h1 class="text-center mb-5">Урок №:</h1>
 <!--================ Srart Brand Area =================-->
 <section class="brand_area section_gap_bottom">
@@ -74,7 +83,7 @@
             <a href="{{ route('fourpagesSpa') }}">
                 <div class="single-brand-item d-table">
                     <div class="d-table-cell text-center">
-                        <h1>4</h1>
+                        <h1>6</h1>
                     </div>
                 </div>
             </a>
