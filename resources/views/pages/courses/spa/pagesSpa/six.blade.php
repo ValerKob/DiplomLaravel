@@ -7,7 +7,7 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">6 Урок <br>Доделываем задания</h2>
+            <h2 class="text-left" style="color: #000;">8 Урок <br>Тестирование</h2>
         </div>
         <div class="">
             <div class="row">
@@ -24,16 +24,10 @@
                                 font-size: 20px;
                             }
                         </style>
-                        <h4 class="text-uppercase">Задание</h4>
+                        <h4 class="text-uppercase">Тесты</h4>
                         <p>
-                            Теперь откроем задание и посмотрим что нужно сделать.
+                            Прежде чем закончить всесь курс, проидёмся по нему и проверим всё ли работает.
                         <p>
-                            Как мы видим, в заданий сказано, разаботать Функционал администратора: <br>
-                            ● Регистрация новых пользователей в системе;<br>
-                            ● Создание/открытие/закрытие смен;<br>
-                            ● Назначение/снятие работников на смены;<br>
-                            ● Просмотр всех заказов определенной смены;<br>
-                            ● Увольнение работников;<br>
                     </div>
                 </div>
             </div>
@@ -41,31 +35,13 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
-                        </p>
-                        <p>
-                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
+                            Для начала откроем phpMyAdmin, посмотрим что есть в базе данных, в базе дыннах должны бать изменены данные, или добвалены новые, пример как показано на рисунке.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks13.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks15.png" alt="" style="border: 1px solid #000;">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Результат</h4>
-                        <p>
-                            Вид страницы будет выглядеть так как показано на рисунке
-                        <p>
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/dbUsers.png" alt="">
                     </div>
                 </div>
             </div>

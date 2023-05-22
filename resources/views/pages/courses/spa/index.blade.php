@@ -79,7 +79,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="{{ route('fivepagesSpa') }}">
+                        <a href="{{ route('threepagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>5</h1>
@@ -88,7 +88,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="{{ route('sixpagesSpa') }}">
+                        <a href="{{ route('fourpagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>6</h1>
@@ -97,7 +97,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="{{ route('sevenpagesSpa') }}">
+                        <a href="{{ route('fivepagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>7</h1>
@@ -106,7 +106,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="{{ route('sevenpagesSpa') }}">
+                        <a href="{{ route('sixpagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
                                     <h1>8</h1>

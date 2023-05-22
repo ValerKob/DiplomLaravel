@@ -30,7 +30,6 @@
                         <p>
                             Как мы видим, в заданий сказано, разаботать Функционал администратора: <br>
                             ● Регистрация новых пользователей в системе;<br>
-                            ● Создание/открытие/закрытие смен;<br>
                             ● Назначение/снятие работников на смены;<br>
                             ● Просмотр всех заказов определенной смены;<br>
                             ● Увольнение работников;<br>
@@ -41,31 +40,171 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
-                        </p>
-                        <p>
-                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
+                            Для того чтобы сделать это задание создадим файл AdminRegister.jsx, скопируем в него всё содержимое из папка WSR-Master "admin-register.html", как должно выглядеть показано на рисунке.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks13.png" alt="">
+                        <img style="width: 450px; height: 350px;" class="img-fluid" src="../assets/img/tasks/tasks7New.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/newOff.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Поcле того как вы перетащили весь контент из html в JSX, нужно получить данные из базы данных чтобы их выводить на экран, для этого пропишим код который вы можете видеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Итоговый результат действий, это возможность зарегестрировать сотрудников, результат того что должно получиться вы можете увидить не рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/registerAdmin1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px;" class="img-fluid" src="../assets/img/tasks/tasks7New.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Для того чтобы сделать Уволнение сотрудников, создадим файл Admin.jsx, скопируем в него всё содержимое из папка WSR-Master "admin.html", как должно выглядеть показано на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Поcле того как вы перетащили весь контент из html в JSX, нужно получить данные из базы данных чтобы их выводить на экран, для этого пропишим код который вы можете видеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/newOff.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks14.png" alt="" style="border: 1px solid #000;">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/registerAdmin2.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Результат</h4>
                         <p>
-                            Вид страницы будет выглядеть так как показано на рисунке
+                            Итоговый результат действий, это возможность уволить сотрудников, результат того что должно получиться вы можете увидить не рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
                         <p>
+                            Для того чтобы сделать вомзможность добавлять сотрудников на смены, создадим файл AdminShift.jsx, скопируем в него всё содержимое из папка WSR-Master "admin-shift.html", как должно выглядеть показано на рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px;" class="img-fluid" src="../assets/img/tasks/tasks7New.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/newOff.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Поcле того как вы перетащили весь контент из html в JSX, нужно получить данные из базы данных чтобы их выводить на экран, для этого пропишим код который вы можете видеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Итоговый результат действий, это возможность посмотреть и назаначи на смену сотрудников, результат того что должно получиться вы можете увидить не рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/newOff2.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px;" class="img-fluid" src="../assets/img/tasks/tasks7New.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Для того чтобы сделать просмотр заказов определённого заказа, создадим файл AdminOrders.jsx, скопируем в него всё содержимое из папка WSR-Master "admin-orders.html", как должно выглядеть показано на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Поcле того как вы перетащили весь контент из html в JSX, нужно получить данные из базы данных чтобы их выводить на экран, для этого пропишим код который вы можете видеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/newOff.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/final2.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Итоговый результат действий, это возможность смотреть заказы, результат того что должно получиться вы можете увидить не рисунке.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks6.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/finalHask.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -29,10 +29,9 @@
                             Теперь откроем задание и посмотрим что нужно сделать.
                         <p>
                             Как мы видим, в заданий сказано, разаботать Функционал официанта: <br>
-                            ● Создание нового заказа;<br>
-                            ● Добавление/удаление позиций из заказа;<br>
-                            ● Просмотр всех принятых им заказов за смену;<br>
-                            ● Изменение статуса заказа на «отменен» и «оплачен».<br>
+                            ● Просмотр всех сотрудников;<br>
+                            ● Добавление сотрудников;<br>
+                            ● Удаление сотрудников;<br>
                     </div>
                 </div>
             </div>
@@ -40,31 +39,75 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать это задание создадим пару файлов и напишим код, а так же добавим стилей.
-                        </p>
-                        <p>
-                            Всё это мы можете увидеть на рисунке, все исходники я скину в конце
+                            Для того чтобы сделать это задание создадим файл AdminShift.jsx, скопируем в него всё содержимое из папка WSR-Master "admin-shift.html", как должно выглядеть показано на рисунке.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks7.png" alt="">
+                        <img style="width: 450px; height: 350px;" class="img-fluid" src="../assets/img/tasks/tasks7New.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/ltasks8.png" alt="" style="width: 450px; height: 350px; border: 1px solid #000;">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/newOff.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Результат</h4>
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Поcле того как вы перетащили весь контент из html в JSX, нужно получить данные из базы данных чтобы их выводить на экран, для этого пропишим код который вы можете видеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
                         <p>
-                            Вид страницы будет выглядеть так как показано на рисунке
+                            Итоговый результат действий, это получение списка всех сотрудников и всех заказов и вывода их на экран, результат того что должно получиться вы можете увидить не рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/newOff2.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img text-center">
+                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/newOff3.png" alt="">
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Теперь, после проделанных манипуляций, нужно сделать возмодно добавлять сотрудников, для этого созданим файл AdminShiftModal.jsx и перетащи из файла admin-shift-modal.html, вы это уже умеете поэтому не будем на этом останавливаться.
+                        </p>
+                        <p style="text-indent: 20px; margin-top: 50px;">
+                            Теперь нужно прописать код для взаймодейсвия с базой данных, чтобы получить весь список польщователей и вывести все данны на экран, а так же возмодность добавлять на смену нового сотрудника, код показан на рисунке.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
                         <p>
+                            Итоговый результат действий, это получение списка всех сотрудников, с возмодность добавлять нового сотрдуника, как должно выглядеть вы можете увидеть на рисунке.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/newOff4.png" alt="">
                     </div>
                 </div>
             </div>
