@@ -15,6 +15,16 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-end">
+                        <li class="nav-item" style="display: flex; align-items: center;">
+                            <img id="specialButton" style="cursor:pointer;" src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
+                        </li>
+                        <style>
+                            @media (max-width: 575px) {
+                                #specialButton {
+                                    background-color: #fff;
+                                }
+                            }
+                        </style>
                         <li class="nav-item @if(request()->is('/')) active @endif">
                             <a class="nav-link" href="{{ route('main') }}">Главная</a>
                         </li>
