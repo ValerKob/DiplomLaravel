@@ -17,6 +17,12 @@
                     <h2>
                         Разработка SPA<br />
                     </h2>
+                    <style>
+                        p {
+                            text-align: justify;
+                            font-size: 20px;
+                        }
+                    </style>
                     <!-- <p>
                 Я FullStack Web-разработчик, опыт программирования
                 в Web-технологиях на 2023 год, уже более 5 лет.
