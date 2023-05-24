@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img text-center">
-                        <img style="width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/tasks1.png" alt="">
+                        <img style="width: 450px; height: 250px" class="img-fluid" src="../assets/img/tasks/tasks1New.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -26,15 +26,15 @@
                             }
                         </style>
                         <p>
-                            Откроите вашу IDE, это может быть как VSC или VS и другие!
+                            Откроите "IDE" Visual Studio Code.
                         <p>
-                            После открытитя, создайте папку в которой будете работать, например так как показано на рисунке.
+                            После открытитя, создать папку в с именем tasks3SpaWordlSkills.
                         </p>
                     </div>
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                После того как вы открыли вашу IDE и создали папку, можно приступить к самому интересному и сложному, для начала нам нужно установить React, чтобы его установить нужно прописать команадну <a href="https://create-react-app.dev/docs/getting-started/">npx create-next-app</a>
+                Для начала нам нужно установить React, чтобы установить нужно прописать команду, которая написана в терминале ниже. <a href="https://create-react-app.dev/docs/getting-started/">npx create-next-app</a>
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -68,16 +68,16 @@
                 </div>
             </div>
             <p style="text-indent: 20px;  margin-top: 40px;">
-                Прописывать нужно в консольке Node.js или если у вас есть GitBush, можно и в нём, так же подойдёт встроенная консолька в VSC.
+                Прописывать нужно во встроенном терминале Visual Studio Code, попасть в терминал можно сочетанием клавиш " Ctrl + Shift + ` ".
             </p>
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            После того как вы прописали эту команду у вас должны подтянуться все файлы с глобального сервера, всё это вы можете увидеть на рисунке.
+                            После введения всех команд в консоли, должны подтянуться все файлы с глобального сервера, всё это можно увидеть на рисунке.
                         </p>
                         <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                            Если что-то пошло не так или не загрузилось, почитайте документацию по более подробной установке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
                         </p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 50px; margin-bottom: 50px;">
-                Так же после успешной установки, проект сам откроется в браузере и запуститься.
+                Так же после успешной установки, проект автоматически откроется в браузере и запуститься.
             </p>
             <div class="row mt-5">
                 <div class="col-lg-6">
@@ -99,10 +99,10 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Если вы видите то что изображено на рисунке, и у вас работает порт localhost:3000, то всё супер.
+                            Если всё также как изображено на рисунке, и работает порт localhost:3000, то всё работает.
                         </p>
                         <p>
-                            Если у вас что-то пошло не так или не загрузилось, почитайте документацию по более подробной устновке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                            Если что-то пошло не так или не загрузилось, почитайте документацию по более подробной установке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
                         </p>
                     </div>
                 </div>

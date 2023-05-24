@@ -7,13 +7,13 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">6 Урок <br>Доделываем задания</h2>
+            <h2 class="text-left" style="color: #000;">6 Урок <br>Разбор задания, фунцкионал повара</h2>
         </div>
         <div class="">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks9.png" alt="" style="border: 1px solid #000;">
+                        <img class="img-fluid" src="../assets/img/tasks/NewTasksOfice.png" alt="" style="border: 1px solid #000;">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -26,11 +26,11 @@
                         </style>
                         <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            Теперь откроем задание и посмотрим что нужно сделать.
+                            Теперь открыть задание, перед этим скачав, на главной страницы с уроками, нажав на кнопку "Скачать".
                         <p>
-                            Как мы видим, в заданий сказано, разаботать Функционал повара: <br>
+                            <!-- Как мы видим, в заданий сказано, разаботать Функционал повара: <br>
                             ● Просмотр заказов, принятых от клиентов;<br>
-                            ● Изменение статуса заказа на «готовится» и «готов».<br>
+                            ● Изменение статуса заказа на «готовится» и «готов».<br> -->
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать это задание создадим файл AdminOrders.jsx, скопируем в него всё содержимое из папка WSR-Master "admin-order.html", как должно выглядеть показано на рисунке.
+                            Для того чтобы сделать задание, создать файл AdminOrders.jsx, скопируем в файл всё содержимое из папка WSR-Master "admin-order.html", как должно выглядеть показано на рисунке.
                         </p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Поcле того как вы перетащили весь контент из html в JSX, нужно получить данные из базы данных чтобы их выводить на экран, для этого пропишим код который вы можете видеть на рисунке.
+                            После того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого пропишем код который виден на рисунке.
                         </p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Итоговый результат действий, это получение списка всех заказов и вывода их на экран, результат того что должно получиться вы можете увидить не рисунке.
+                            Итоговый результат действий, это получение списка всех заказов и вывода их на экран, результат того, что должно получиться можно увидеть на рисунке.
                         </p>
                     </div>
                 </div>

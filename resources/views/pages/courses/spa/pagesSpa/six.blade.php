@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks12.png" alt="" style="border: 1px solid #000;">
+                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/dbUsers.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -26,22 +26,8 @@
                         </style>
                         <h4 class="text-uppercase">Тесты</h4>
                         <p>
-                            Прежде чем закончить всесь курс, проидёмся по нему и проверим всё ли работает.
-                        <p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            Для начала откроем phpMyAdmin, посмотрим что есть в базе данных, в базе дыннах должны бать изменены данные, или добвалены новые, пример как показано на рисунке.
+                            Для начала откроем phpMyAdmin, посмотрим что есть в базе данных, в базе данных должны бать изменённый данные, или добавлены новые, пример как показано на рисунке, если есть все изменений и всё работает, то проект завершён.
                         </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/dbUsers.png" alt="">
                     </div>
                 </div>
             </div>
