@@ -52,7 +52,7 @@
             <div class="row mt-5">
                 <div class="col-lg-6 ">
                     <div class="left_img text-center">
-                        <img style="margin-top: 40px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainThreeTasks.png" alt="">
+                        <img style="margin-top: 40px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainThreeTasks1.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
