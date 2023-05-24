@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<section class="about_area section_gap">
+<section class="about_area section_gap" style="padding-top: 150px; padding-bottom: 0;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
