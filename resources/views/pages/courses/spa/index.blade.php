@@ -3,9 +3,9 @@
 @section('title', 'Home')
 
 @section('content')
-<section class="about_area section_gap" style="padding-top: 150px; padding-bottom: 0;">
+<section class="about_area section_gap">
     <div class="container">
-        <div class="row justify-content-start">
+        <div class="row align-items-center">
             <div class="col-lg-5">
                 <div class="about_img">
                     <img style="margin-left: 100px; width: 500px; height: 500px" class="" src="../assets/img/about-us.png" alt="" />
