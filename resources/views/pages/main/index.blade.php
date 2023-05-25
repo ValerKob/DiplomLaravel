@@ -20,7 +20,7 @@
                     <div class="banner_content">
                         <h2 class="text-uppercase" style="font-weight: 600; margin-right: -40px">Электронное пособие</h2>
                         </h2>
-                        <h1 class="text-uppercase newUper">Разработка<br> одностраничного <br> веб-приложения</h2>
+                        <h1 style="font-size: 45px; line-height: 50px;" class="text-uppercase">Разработка<br> одностраничного <br> веб-приложения</h2>
                             <div class="d-flex align-items-center">
                                 <!-- <a class="primary_btn" href="#about"><span>Подробнее</span></a> -->
                                 <!-- <a class="primary_btn tr-bg" href="../assets/files/SPA.docx" download=""><span>Скачать</span></a> -->
