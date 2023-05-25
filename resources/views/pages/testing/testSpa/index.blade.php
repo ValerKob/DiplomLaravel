@@ -30,8 +30,8 @@
          <div class="game-quiz-container">
 
              <div class="game-details-container">
-                 <h1>Счет : <span id="player-score"></span> / 25</h1>
-                 <h1>Вопрос : <span id="question-number"></span> / 25</h1>
+                 <h1>Счет : <span id="player-score"></span> / 15</h1>
+                 <h1>Вопрос : <span id="question-number"></span> / 15</h1>
              </div>
 
              <div class="game-question-container">
@@ -609,7 +609,7 @@
 
          function handleQuestions() {
              //function to shuffle and push 10 questions to shuffledQuestions array
-             while (shuffledQuestions.length <= 24) {
+             while (shuffledQuestions.length <= 14) {
                  const random = questions[Math.floor(Math.random() * questions.length)]
                  if (!shuffledQuestions.includes(random)) {
                      shuffledQuestions.push(random)
@@ -688,7 +688,7 @@
              unCheckRadioButtons()
              //delays next question displaying for a second
              setTimeout(() => {
-                 if (indexNumber <= 24) {
+                 if (indexNumber <= 14) {
                      NextQuestion(indexNumber)
                  } else {
                      handleEndGame()
@@ -719,17 +719,17 @@
              let remarkColor = null
 
              // condition check for player remark and remark color
-             if (playerScore <= 7) {
+             if (playerScore <= 5) {
                  remark = ""
                  remarkColor = "red"
-             } else if (playerScore >= 11 && playerScore < 17) {
+             } else if (playerScore >= 5 && playerScore < 10) {
                  remark = ""
                  remarkColor = "orange"
-             } else if (playerScore >= 17) {
+             } else if (playerScore >= 10) {
                  remark = ""
                  remarkColor = "green"
              }
-             const playerGrade = (playerScore / 25) * 100
+             const playerGrade = (playerScore / 15) * 100
 
              //data to display to score board
              document.getElementById('remarks').innerHTML = remark

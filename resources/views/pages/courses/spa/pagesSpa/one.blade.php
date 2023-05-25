@@ -145,6 +145,21 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="portfolio_right_text mt-30">
+                        <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/9jHlFe5AttI" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
+                        <h4 class="text-uppercase">Видео ролик к уроку</h4>
+                        <p style="text-indent: 20px;">
+                            В видео подробно рассказано и показано, как нужно разорхировать проект и запустить API.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
