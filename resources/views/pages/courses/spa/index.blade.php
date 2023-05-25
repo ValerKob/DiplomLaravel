@@ -134,5 +134,13 @@
         </div>
     </div>
 </section>
+
+<style>
+    @media (max-width: 1199px) {
+        .brand_area {
+            padding-bottom: 160px;
+        }
+    }
+</style>
 <!--================ End Brand Area =================-->
 @endsection

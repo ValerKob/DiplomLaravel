@@ -68,6 +68,12 @@
         max-height: 100%;
     }
 
+    @media (max-width: 1199px) {
+        .brand_area {
+            padding-bottom: 160px;
+        }
+    }
+
     #DIV_1 {
         block-size: 104px;
         border-block-end-color: rgb(229, 231, 235);
