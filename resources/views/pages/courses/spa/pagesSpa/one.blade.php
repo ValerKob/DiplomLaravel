@@ -130,12 +130,27 @@
                     php artisan serve
                 </div>
             </div>
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                composer i - установка composera - менеджера загрузки проектов, на основе Laravel.
+            </p>
+
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                php artisan migrate --seed - выполнение миграций для создания и заполнения базы данных проекта.
+            </p>
+
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                php artisan key:generate - создание уникального ключа проекта.
+            </p>
+
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                php artisan serve - запуск сервера API.
+            </p>
 
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style=" margin-top: 50px;">
-                            После того как ввели все эти команды в консоль, и если нету ошибок и всё хорошо работает, проект сам должен запуститься в браузере на хосте "http://127.0.0.1:8000", если что-то пошло не по плану или вышли какие-то ошибка, попробуйте повторить установку заново, но более внимательно, как выглядит сайт показано на рисунке.
+                            После этих команд проект должен запуститься в браузере на хосте "http://127.0.0.1:8000".
                         </p>
                     </div>
                 </div>
