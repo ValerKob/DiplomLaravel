@@ -33,7 +33,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                Для начала нам нужно установить React, чтобы установить нужно прописать команду, которая написана в терминале ниже. <a href="https://create-react-app.dev/docs/getting-started/">npx create-next-app</a>
+                В терминале в папке tasks3SpaWordlSkills ввести следующие команды (команды можно скопировать, нажав на кнопку copy):
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -66,6 +66,17 @@
                     npm start
                 </div>
             </div>
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                npx create-react-app my-app - создание реакт приложения.
+            </p>
+
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                cd my-app - создание уникального ключа проекта.
+            </p>
+
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
+                npm start - запуск сервера API.
+            </p>
             <p style="text-indent: 20px;  margin-top: 40px;">
                 Прописывать нужно во встроенном терминале Visual Studio Code, попасть в терминал можно сочетанием клавиш " Ctrl + Shift + ` ".
             </p>
