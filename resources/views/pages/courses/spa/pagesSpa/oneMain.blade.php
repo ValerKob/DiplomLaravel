@@ -7,7 +7,7 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">3 Урок <br>Начало работы</h2>
+            <h2 class="text-left" style="color: #000;">3 Урок <br>Установка фреймворка реакт</h2>
         </div>
         <div class="">
             <div class="row">
@@ -128,7 +128,7 @@
 <!--================End Portfolio Details Area =================-->
 <a class="text-center" style="cursor: pointer; color: #000; margin-bottom: 10px;" onclick="window.history.go(-1); return false;">
     <div class="main_title text-center">
-        <a class="primary_btn"><span>Назад</span></a>
+        <span class="primary_btn" style="width: 150px;">Назад</span>
     </div>
 </a>
 <h1 class="text-center mb-5">Урок №:</h1>

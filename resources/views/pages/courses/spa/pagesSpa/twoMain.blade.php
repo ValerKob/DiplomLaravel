@@ -103,7 +103,7 @@
 <!--================End Portfolio Details Area =================-->
 <a class="text-center" style="cursor: pointer; color: #000; margin-bottom: 10px;" onclick="window.history.go(-1); return false;">
     <div class="main_title text-center">
-        <a class="primary_btn"><span>Назад</span></a>
+        <span class="primary_btn" style="width: 150px;">Назад</span>
     </div>
 </a>
 <h1 class="text-center mb-5">Урок №:</h1>
