@@ -106,7 +106,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="offset-lg-1 col-lg-5">
-                        <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
+                        <div class=" mt-30" style="margin-top: 30px;">
                             <h4 class="text-uppercase">Видео ролик к уроку</h4>
                             <style>
                                 p {
