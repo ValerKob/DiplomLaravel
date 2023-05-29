@@ -37,7 +37,7 @@
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <p style="text-indent: 20px; margin-top: 50px;">
+                        <p style=" margin-top: 50px;">
                             Открыть проект с помощью IDE Visual Studio Code, полная инструкция по установке проекта описана в файлe "README.md".
                         </p>
                     </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
-                        <p style="text-indent: 20px; margin-top: 50px;">
+                        <p style=" margin-top: 50px;">
                             Далее необходимо открыть терминал OpenServer и в терминале перейти в папку проекта "api_v2-main", для этого в терминале надо ввести команду "cd 'путь к папке' ", как показано на рисунке.
                         </p>
                     </div>
@@ -67,7 +67,7 @@
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <p style="text-indent: 20px; margin-top: 50px;">
+                        <p style=" margin-top: 50px;">
                             Прежде чем продолжать разворачивать проект, нужно изменить параметры в файле ".env", переименовать файл ".env.example" в ".env", открыть его, теперь изменить константу "DB_PASSWORD=root" на "DB_PASSWORD=", как показано на рисунке.
                         </p>
                     </div>
@@ -87,14 +87,14 @@
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
-                        <p style="text-indent: 20px; margin-top: 50px;">
+                        <p style=" margin-top: 50px;">
                             Так же, перед запуском команд, нужно зайти в phpMyAdmin, и создать базу данных под названием "api_v2", для этого нажать на иконку зелёного флажка в правой нижней части компьютера, навести курсором мыши на вкладку "дополнительно", и выбирать из списка phpMyAdmin, дальше зайти в базу данных и создать базу данных под название "api_v2", с кодировкой "utf8mb4_unicode_ci", как показано на рисунке.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+            <p style=" margin-top: 40px; margin-bottom: 40px;">
                 Далее, после проделанных всех действий, ввести все эти команды в консоль, команды можно скопировать ниже в блоке под название "Terminal".
             </p>
             <div id="DIV_1">
@@ -134,7 +134,7 @@
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <p style="text-indent: 20px; margin-top: 50px;">
+                        <p style=" margin-top: 50px;">
                             После того как ввели все эти команды в консоль, и если нету ошибок и всё хорошо работает, проект сам должен запуститься в браузере на хосте "http://127.0.0.1:8000", если что-то пошло не по плану или вышли какие-то ошибка, попробуйте повторить установку заново, но более внимательно, как выглядит сайт показано на рисунке.
                         </p>
                     </div>
@@ -154,7 +154,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
                         <h4 class="text-uppercase">Видео ролик к уроку</h4>
-                        <p style="text-indent: 20px;">
+                        <p style="">
                             В видео подробно рассказано и показано, как нужно разархировать проект и запустить API.
                         </p>
                     </div>
