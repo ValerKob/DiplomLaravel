@@ -71,7 +71,7 @@
             </p>
 
             <p style=" margin-top: 40px; margin-bottom: 40px;">
-                cd my-app - переход в папку my-app - которая создаётся автоматически.
+                cd my-app - переход в папку my-app, которая создаётся автоматически.
             </p>
 
             <p style=" margin-top: 40px; margin-bottom: 40px;">
