@@ -67,11 +67,11 @@
                 </div>
             </div>
             <p style=" margin-top: 40px; margin-bottom: 40px;">
-                npx create-react-app my-app - создание реакт приложения.
+                npx create-react-app my-app - создание React приложения.
             </p>
 
             <p style=" margin-top: 40px; margin-bottom: 40px;">
-                cd my-app - перейти в папку my-app.
+                cd my-app - переход в папку my-app - которая создаётся автоматически.
             </p>
 
             <p style=" margin-top: 40px; margin-bottom: 40px;">
