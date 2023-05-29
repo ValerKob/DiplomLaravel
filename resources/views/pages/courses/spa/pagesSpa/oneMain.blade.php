@@ -71,11 +71,11 @@
             </p>
 
             <p style=" margin-top: 40px; margin-bottom: 40px;">
-                cd my-app - создание уникального ключа проекта.
+                cd my-app - перейти в папку my-app.
             </p>
 
             <p style=" margin-top: 40px; margin-bottom: 40px;">
-                npm start - запуск сервера API.
+                npm start - запуск React приложения.
             </p>
             <p style="text-indent: 20px;  margin-top: 40px;">
                 Прописывать нужно во встроенном терминале Visual Studio Code, попасть в терминал можно сочетанием клавиш " Ctrl + Shift + ` ".
