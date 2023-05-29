@@ -18,7 +18,6 @@
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
                         <style>
                             p {
                                 text-align: justify;
@@ -26,9 +25,9 @@
                             }
                         </style>
                         <p>
-                            Откроите "IDE" Visual Studio Code.
+                            Для разработки SPA приложения, будет использоваться JavaScript фреймворк React.
                         <p>
-                            После открытитя, создать папку в с именем tasks3SpaWordlSkills.
+                            Для установки фреймворка React необходимо в папке проекта api_v2 создать папку с именем tasks3SpaWordlSkills.
                         </p>
                     </div>
                 </div>
