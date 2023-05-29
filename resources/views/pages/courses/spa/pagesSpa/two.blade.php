@@ -159,6 +159,13 @@
         }
     }
 
+    @media (max-width: 530px) {
+        .video {
+            width: 320px;
+            height: 200px;
+        }
+    }
+
     #DIV_1 {
         block-size: 104px;
         border-block-end-color: rgb(229, 231, 235);
