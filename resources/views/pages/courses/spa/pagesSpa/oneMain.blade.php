@@ -77,26 +77,6 @@
             <p style=" margin-top: 40px; margin-bottom: 40px;">
                 npm start - запуск React приложения.
             </p>
-            <p style="text-indent: 20px;  margin-top: 40px;">
-                Прописывать нужно во встроенном терминале Visual Studio Code, попасть в терминал можно сочетанием клавиш " Ctrl + Shift + ` ".
-            </p>
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            После введения всех команд в консоли, должны подтянуться все файлы с глобального сервера, всё это можно увидеть на рисунке.
-                        </p>
-                        <p>
-                            Если что-то пошло не так или не загрузилось, почитайте документацию по более подробной установке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks2.png" alt="">
-                    </div>
-                </div>
-            </div>
             <p style="text-indent: 20px; margin-top: 50px; margin-bottom: 50px;">
                 Так же после успешной установки, проект автоматически откроется в браузере и запуститься.
             </p>
