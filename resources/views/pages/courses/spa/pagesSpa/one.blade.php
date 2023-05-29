@@ -164,8 +164,10 @@
     </div>
 </section>
 <!--================End Portfolio Details Area =================-->
-<a class="text-center" style="cursor: pointer;" onclick="window.history.go(-1); return false;">
-    <h1 style=" color: #5b5b5b;">" <"-Назад </h1>
+<a class="text-center" style="cursor: pointer; color: #000; margin-bottom: 10px;" onclick="window.history.go(-1); return false;">
+    <div class="main_title text-center">
+        <a class="primary_btn" href="../assets/files/Zadanie_SPA_zip.zip" download><span>Назад</span></a>
+    </div>
 </a>
 <h3 class="text-center mb-3 mt-5">Урок №:</h3>
 <!--================ Srart Brand Area =================-->

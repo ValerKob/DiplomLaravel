@@ -18,9 +18,9 @@
                         </style>
                         <h4 class="text-uppercase">Итоги</h4>
                         <p>
-                            По резултатам, мы получаем готовый проект на ReactSPA!
+                            По резултатам, получаем готовый проект на ReactSPA!
                         <p>
-                            Все исходники и результаты проекта я выгружу на хостинг, а все материалы вы модеже получить по это ссылке
+                            Исходники и результаты проекта выгружу на хостинг, а все материалы вы модеже получить по это ссылке
                         </p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <!-- <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <iframe class="video" width="100" height="576" src="https://www.youtube.com/embed/VA6ZtniXgB8" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
