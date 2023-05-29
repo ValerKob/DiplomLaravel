@@ -53,7 +53,7 @@
                 Далее, после проделанных всех действий, нужно ввести специальную команду в консоль, чтобы посмотреть все существующие роуты и как к ним обращаться, для этого можно скопировать команды из блока "Terminal".
             </p>
 
-            <div class="portfolio_details_inner">
+            <div class="">
                 <div id="DIV_1">
                     <div id="DIV_2">
                         <div id="DIV_3">
@@ -87,7 +87,7 @@
                             <img style="margin-top: 20px; width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/twoMainTwoTasks.png" alt="">
                         </div>
                     </div>
-                    <div class="offset-lg-1 col-lg-5 mt-5">
+                    <div class="offset-lg-1 col-lg-5">
                         <div class="mt-30">
                             <h4 class="text-uppercase">API</h4>
                             <style>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="offset-lg-1 col-lg-5">
-                        <div class=" mt-30" style="margin-top: 30px;">
+                        <div class="mt-30" style="margin-top: 30px;">
                             <h4 class="text-uppercase">Видео ролик к уроку</h4>
                             <style>
                                 p {
@@ -114,7 +114,7 @@
                                     font-size: 20px;
                                 }
                             </style>
-                            <p style="text-indent: 20px;">
+                            <p>
                                 В видео подробно рассказано и показано, как найти API и получить все роуты.
                             </p>
                         </div>
