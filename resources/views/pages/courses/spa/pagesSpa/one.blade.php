@@ -68,7 +68,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style=" margin-top: 50px;">
-                            Прежде чем продолжать разворачивать проект, нужно изменить параметры в файле ".env", переименовать файл ".env.example" в ".env", открыть его, теперь изменить константу "DB_PASSWORD=root" на "DB_PASSWORD=", как показано на рисунке.
+                            Прежде чем продолжать разворачивать проект, нужно изменить параметры в файле ".env". Для этого надо переименовать файл ".env.example" в ".env", открыть его, изменить константу "DB_PASSWORD=root" на "DB_PASSWORD=", как показано на рисунке.
                         </p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
                         <h4 class="text-uppercase">Видео ролик к уроку</h4>
-                        <p style="">
+                        <p>
                             В видео подробно рассказано и показано, как нужно разархировать проект и запустить API.
                         </p>
                     </div>
