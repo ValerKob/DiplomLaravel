@@ -108,6 +108,12 @@
                     <div class="offset-lg-1 col-lg-5">
                         <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
                             <h4 class="text-uppercase">Видео ролик к уроку</h4>
+                            <style>
+                                p {
+                                    text-align: justify;
+                                    font-size: 20px;
+                                }
+                            </style>
                             <p style="text-indent: 20px;">
                                 В видео подробно рассказано и показано, как найти API и получить все роуты.
                             </p>
