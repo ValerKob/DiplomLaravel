@@ -89,9 +89,6 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Если всё также как изображено на рисунке, и работает порт localhost:3000, то всё работает.
-                        </p>
-                        <p>
                             Документацию по более подробной установке можно найти по ссылке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
                         </p>
                     </div>

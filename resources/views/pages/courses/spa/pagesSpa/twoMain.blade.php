@@ -16,7 +16,8 @@
             <h2 class="text-left" style="color: #000;">4 Урок <br>Работа с NavLink</h2>
         </div>
         <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-            Чтобы сделать, возможность переходить по страницам без перезагрузки сайта, для этого понадобится тег <a href="">NavLink</a>, чтобы установить, нужно ввести в терминал следующую команду.
+            Для того, чтобы переходить по страницам без перезагрузки, используем тег NavLink. Тег NavLink являеться объектом,
+            определенном в модуле react-router-dom. Для установки этого модуля необходимо ввести в терминал следующую команду:
         </p>
         <div class="">
             <div id="DIV_1">
@@ -47,7 +48,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                После ввода команды в консоль, внутри Visual Studio Code, в файле package.json должен появиться тег "react-router-dom": "^4.3.1", если всё так, то всё работает.
+                После ввода команды в консоль, внутри Visual Studio Code, в файле package.json должен появиться зависимость "react-router-dom": "^4.3.1", если всё так, то всё работает.
             </p>
             <div class="row mt-5">
                 <div class="col-lg-6">
