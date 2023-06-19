@@ -59,7 +59,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            В папке проекта содать папку, Pages и в ней две страницы Test и Glav.
+                            В папке проекта содать папку, Pages и в ней два файла Test.jsx и Glav.jsx
                         <p>
                     </div>
                 </div>
