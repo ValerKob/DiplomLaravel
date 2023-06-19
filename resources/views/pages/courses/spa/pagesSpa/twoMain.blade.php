@@ -55,7 +55,7 @@
             <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks4.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks41.png" alt="">
                     </div>
                 </div>
                 <div class="offset-lg-1 col-lg-5">
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks4New.png" alt="">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks41New.png" alt="">
                     </div>
                 </div>
             </div>
