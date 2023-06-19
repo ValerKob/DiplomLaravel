@@ -36,7 +36,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать задание, создать файл AdminShift.jsx, скопируем в файл всё содержимое из папка WSR-Master "admin-shift.html", как должно выглядеть показано на рисунке.
+                            Для создания страницы официанта, необходимо в папке Pages, создать файл AdminShift.jsx и скопировать в файл всё содержимое файла WSR-Master/admin-shift.html, как должно выглядеть показано на рисунке.
                         </p>
                     </div>
                 </div>
