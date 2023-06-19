@@ -83,17 +83,6 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="mt-30">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks5.png" alt="" style="border: 1px solid #000;">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="portfolio_right_text mt-30">
                         <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/1LHK0JQOQOw" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
