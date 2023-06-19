@@ -53,7 +53,7 @@
                 После ввода команды, в файле package.json должно появиться имя и версия модуля "react-router-dom": "^4.3.1".
             </p>
             <div class="row mt-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-start">
                     <div class="left_img">
                         <img class="img-fluid" src="../assets/img/tasks/tasks41.png" alt="">
                     </div>
@@ -63,9 +63,7 @@
                         <p>
                             В папке проекта содать папку, Pages и в ней два файла test.jsx и Glav.jsx - страницы сайта. <br>
                             <br>
-                            Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем следующий код:
-                            import Test from './pages/test';
-                            import Glav from './pages/glav';
+                            Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем код представленный на рисунке
                         <p>
                     </div>
                 </div>
