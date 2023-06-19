@@ -11,11 +11,7 @@
         </div>
         <div class="">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
+                <div class="offset-lg-12 col-lg-12">
                     <div class="mt-30">
                         <style>
                             p {
@@ -23,7 +19,6 @@
                                 font-size: 20px;
                             }
                         </style>
-                        <h4 class="text-uppercase">Задание</h4>
                         <p>
                             Разработать функционал официанта. Официант должен иметь возможность выполнять следующие функции:
                             просмотр всех сотрудников;<br>
