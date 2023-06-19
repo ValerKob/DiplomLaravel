@@ -66,7 +66,7 @@
                             Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем следующий код:
                             import Test from './pages/test';
                             import Glav from './pages/glav';
-                            Роуты нам понадобятся для возмоджности перехода по определённому пути:
+                            Роуты нам понадобятся для возможности перехода по определённому пути:
                             < Route path="/Main" component={Glav} />
                             < Route path="/Test" component={Test} />
                         <p>
