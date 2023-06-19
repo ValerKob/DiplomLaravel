@@ -72,7 +72,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Роуты понадобятся для возможности отрисовки определённой страницы, по определённому пути:
+                            Роуты понадобятся для возможности отрисовки определённой страницы, по определённому пути понадобятся Роуты:
                             < Route path="/Main" component={Glav} />
                             < Route path="/Test" component={Test} />
                         <p>
