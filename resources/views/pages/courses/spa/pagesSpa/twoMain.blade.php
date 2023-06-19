@@ -50,7 +50,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                После ввода команды, в файле package.json должен появиться модуль "react-router-dom": "^4.3.1".
+                После ввода команды, в файле package.json должно появиться имя и версия модуля "react-router-dom": "^4.3.1".
             </p>
             <div class="row mt-5">
                 <div class="col-lg-6">
