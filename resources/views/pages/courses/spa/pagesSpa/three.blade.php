@@ -36,7 +36,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для создания страницы официанта, необходимо в папке Pages, создать файл AdminShift.jsx и импортировать в него всё содержимое файла WSR-Master/admin-shift.html.
+                            Для создания страницы официанта, необходимо в папке Pages, создать файл AdminShift.jsx и импортировать в него всё содержимое файла WSR-Master/admin-shift.html, с учётом требований технологий фреймворка React.
                         </p>
                     </div>
                 </div>
