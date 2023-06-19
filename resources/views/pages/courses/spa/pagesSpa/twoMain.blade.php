@@ -66,9 +66,6 @@
                             Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем следующий код:
                             import Test from './pages/test';
                             import Glav from './pages/glav';
-                            Роуты нам понадобятся для возможности отрисовки определённой страницы, по определённому пути:
-                            < Route path="/Main" component={Glav} />
-                            < Route path="/Test" component={Test} />
                         <p>
                     </div>
                 </div>
@@ -77,7 +74,9 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Код должен выглядеть так
+                            Роуты понадобятся для возможности отрисовки определённой страницы, по определённому пути:
+                            < Route path="/Main" component={Glav} />
+                            < Route path="/Test" component={Test} />
                         <p>
                     </div>
                 </div>
