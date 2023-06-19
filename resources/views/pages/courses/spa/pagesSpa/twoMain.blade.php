@@ -75,6 +75,20 @@
             </div>
             <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Код должен выглядеть так
+                        <p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks4New.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
                         <p>
                             Чтобы вывести тег, нужно использовать правильный синтаксис вывода компоненты "'
