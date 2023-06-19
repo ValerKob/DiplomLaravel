@@ -48,7 +48,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                После ввода команды в консоль, внутри Visual Studio Code, в файле package.json должен появиться зависимость "react-router-dom": "^4.3.1", если всё так, то всё работает.
+                После ввода команды в консоль, внутри Visual Studio Code, в файле package.json должен появиться модуль "react-router-dom": "^4.3.1", если всё так, то всё работает.
             </p>
             <div class="row mt-5">
                 <div class="col-lg-6">
