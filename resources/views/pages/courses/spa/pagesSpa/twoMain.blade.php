@@ -63,7 +63,12 @@
                         <p>
                             В папке проекта содать папку, Pages и в ней два файла test.jsx и Glav.jsx - страницы сайта. <br>
                             <br>
-                            Чтобы создать страницы, Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav для импорта страниц, в файле App.js запишем следующий код,
+                            Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем следующий код:
+                            import Test from './pages/test';
+                            import Glav from './pages/glav';
+                            Роуты нам понадобятся для возмоджности перехода по определённому пути:
+                            < Route path="/Main" component={Glav} />
+                            < Route path="/Test" component={Test} />
                         <p>
                     </div>
                 </div>
