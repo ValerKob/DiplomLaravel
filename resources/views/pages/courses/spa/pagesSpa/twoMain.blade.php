@@ -48,7 +48,7 @@
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                После ввода команды в консоль, внутри Visual Studio Code, в файле package.json должен появиться модуль "react-router-dom": "^4.3.1", если всё так, то всё работает.
+                После ввода команды, в файле package.json должен появиться модуль "react-router-dom": "^4.3.1".
             </p>
             <div class="row mt-5">
                 <div class="col-lg-6">
@@ -58,9 +58,8 @@
                 </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <h4 class="text-uppercase">Установка</h4>
                         <p>
-                            Дальше, как изображено на рисунке создать контроллер и две страницы Test и Glav.
+                            В папке проекта содать папку, Pages и в ней две страницы Test и Glav.
                         <p>
                     </div>
                 </div>
