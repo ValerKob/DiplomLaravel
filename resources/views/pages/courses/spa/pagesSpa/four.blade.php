@@ -11,12 +11,7 @@
         </div>
         <div class="">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/NewTasksOfice.png" alt="" style="border: 1px solid #000;">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
+                <div class="offset-lg-12 col-lg-12">
                     <div class="mt-30">
                         <style>
                             p {
@@ -24,16 +19,11 @@
                                 font-size: 20px;
                             }
                         </style>
-                        <h4 class="text-uppercase">Задание</h4>
                         <p>
-                            Разработать функционал повара. Повар должен иметь возможность выполнять следующие функции:<br>
-                            Просмотр заказов, принятых от клиентов;<br>
-                            Изменение статуса заказа на «готовится» и «готов»;<br>
-                            Теперь открыть задание, перед этим скачав, на главной страницы с уроками, нажав на кнопку "Скачать".
+                            Разработать функционал повара. Повар должен иметь возможность выполнять следующие функции: просмотр всех сотрудников;
+                            Просмотр заказов, принятых от клиентов;
+                            Изменение статуса заказа на «готовится» и «готов;
                         <p>
-                            <!-- Как мы видим, в заданий сказано, разаботать Функционал повара: <br>
-                            ● Просмотр заказов, принятых от клиентов;<br>
-                            ● Изменение статуса заказа на «готовится» и «готов».<br> -->
                     </div>
                 </div>
             </div>
@@ -41,7 +31,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для того чтобы сделать задание, создать файл AdminOrders.jsx, скопируем в файл всё содержимое из папка WSR-Master "admin-order.html", как должно выглядеть показано на рисунке.
+                            Для того чтобы сделать задание, создать файл AdminOrders.jsx, скопируем в файл всё содержимое из папка WSR-Master "admin-order.html".
                         </p>
                     </div>
                 </div>
@@ -60,9 +50,74 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            После того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого пропишем код который виден на рисунке.
+                            После того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого пропишем код который можно скопировать из листинга.
                         </p>
                     </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
+                    </div>
+                </div>
+                <div id="DIV_12">
+                    constructor(props) {
+                    super(props);
+                    this.state = {
+                    users: [],
+                    idUser: '',
+                    };
+                    }
+
+                    componentDidMount() {
+                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
+                    .then((res) => res.json())
+                    .then((result) => {
+                    this.setState({
+                    users: result,
+                    });
+                    })
+                    .catch((error) => console.log(error));
+                    }
+
+                    submit(id, userId) {
+                    console.log(userId);
+                    fetch(
+                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
+                    {
+                    method: 'DELETE',
+                    headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                    },
+                    }
+                    ).then(function (response) {
+                    response.json().then(function (resp) {
+                    console.log(resp);
+                    window.location.href = 'http://localhost:3000/AdminShift';
+                    });
+                    });
+                    }
                 </div>
             </div>
             <div class="row mt-5">
@@ -161,7 +216,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 140px;
+        height: 25 8px;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
