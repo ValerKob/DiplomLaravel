@@ -36,8 +36,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Для создания страницы официанта, необходимо в папке Pages, создать файл AdminShift.jsx и импортировать в него всё содержимое файла WSR-Master/admin-shift.html, с учётом требований технологий фреймворка React. <br> <br>
-                            Код страницы представлен на рисунке.
+                            Для создания страницы официанта, необходимо в папке Pages, создать файл AdminShift.jsx и импортировать в него всё содержимое файла WSR-Master/admin-shift.html, с учётом требований технологий фреймворка React.
                         </p>
                     </div>
                 </div>
@@ -56,9 +55,74 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Поcле того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого прописать, код который можно увидеть на рисунке.
+                            Поcле того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого прописать, код который можно скопировать из листинга.
                         </p>
                     </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
+                    </div>
+                </div>
+                <div id="DIV_12">
+                    constructor(props) {
+                    super(props);
+                    this.state = {
+                    users: [],
+                    idUser: '',
+                    };
+                    }
+
+                    componentDidMount() {
+                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
+                    .then((res) => res.json())
+                    .then((result) => {
+                    this.setState({
+                    users: result,
+                    });
+                    })
+                    .catch((error) => console.log(error));
+                    }
+
+                    submit(id, userId) {
+                    console.log(userId);
+                    fetch(
+                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
+                    {
+                    method: 'DELETE',
+                    headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                    },
+                    }
+                    ).then(function (response) {
+                    response.json().then(function (resp) {
+                    console.log(resp);
+                    window.location.href = 'http://localhost:3000/AdminShift';
+                    });
+                    });
+                    }
                 </div>
             </div>
 
@@ -86,10 +150,10 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Теперь, после проделанных манипуляций, нужно сделать возможно добавлять сотрудников, для этого создать файл AdminShiftModal.jsx и перетащить из файла admin-shift-modal.html.
+                            Теперь, после проделанных дейсвий, нужно сделать возможно добавлять сотрудников, для этого создать файл AdminShiftModal.jsx и перетащить из файла admin-shift-modal.html.
                         </p>
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Теперь нужно прописать код для взаимодействия с базой данных, чтобы получить весь список пользователей и вывести все данныe на экран, а так же возможность добавлять на смену нового сотрудника, код показан на рисунке.
+                            Теперь нужно прописать код для взаимодействия с базой данных, чтобы получить весь список пользователей и вывести все данныe на экран, а так же возможность добавлять на смену нового сотрудника, код можно скопировать из Листинга.
                         </p>
                     </div>
                 </div>
@@ -107,6 +171,71 @@
                     <div class="left_img">
                         <img style="width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/newOff4.png" alt="">
                     </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
+                    </div>
+                </div>
+                <div id="DIV_12">
+                    constructor(props) {
+                    super(props);
+                    this.state = {
+                    users: [],
+                    idUser: '',
+                    };
+                    }
+
+                    componentDidMount() {
+                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
+                    .then((res) => res.json())
+                    .then((result) => {
+                    this.setState({
+                    users: result,
+                    });
+                    })
+                    .catch((error) => console.log(error));
+                    }
+
+                    submit(id, userId) {
+                    console.log(userId);
+                    fetch(
+                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
+                    {
+                    method: 'DELETE',
+                    headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json',
+                    },
+                    }
+                    ).then(function (response) {
+                    response.json().then(function (resp) {
+                    console.log(resp);
+                    window.location.href = 'http://localhost:3000/AdminShift';
+                    });
+                    });
+                    }
                 </div>
             </div>
             <div class="row mt-5">
@@ -191,7 +320,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 140px;
+        height: 268px;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
