@@ -61,7 +61,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            В папке проекта содать папку, Pages и в ней два файла test.jsx и Glav.jsx - страницы сайта. <br>
+                            В папке проекта создать папку, Pages и в ней два файла test.jsx и Glav.jsx - страницы сайта. <br>
                             <br>
                             Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем код представленный на рисунке
                         <p>
@@ -83,17 +83,31 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-lg-6">
-                    <div class="portfolio_right_text mt-30">
-                        <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/1LHK0JQOQOw" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="col-lg-6 text-start">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/newPages.png" alt="">
                     </div>
                 </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                            Внутри файлов test.jsx и Glav.jsx, прописать NavLink, указать в теге to, название ссылки на страницу определённую страницу.
+                        <p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
                         <h4 class="text-uppercase">Видео ролик к уроку</h4>
                         <p style="text-indent: 20px;">
                             В видео подробно рассказано и показано, как установить NavLink в ReactJS.
                         </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="portfolio_right_text mt-30">
+                        <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/1LHK0JQOQOw" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
