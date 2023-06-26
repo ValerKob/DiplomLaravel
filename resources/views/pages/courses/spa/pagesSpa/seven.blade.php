@@ -20,7 +20,7 @@
                         <p>
                             По резултатам, получаем готовый проект на ReactSPA!
                         <p>
-                            Исходники и результаты проекта выгружу на хостинг, а все материалы вы модеже получить по это ссылке
+                            Все материалы вы модеже получить по это ссылке
                         </p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <!-- <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
                         <h4 class="text-uppercase">Конец видео урока.</h4>
@@ -45,7 +45,7 @@
                         <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/1_9c5KrMdpE" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="row mt-5">
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">

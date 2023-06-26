@@ -30,7 +30,7 @@
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение</a>
-                            <ul class="dropdown-menu">
+                            <ul class=я"dropdown-menu">
                                 <li class="nav-item @if(request()->is('about')) active @endif">
                                     <a class="nav-link" href="{{ route('about') }}">Что такое SPA?</a>
                                 </li>
