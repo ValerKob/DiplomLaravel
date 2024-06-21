@@ -5,7 +5,7 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <a class="navbar-brand logo_h" href="{{ route('main') }}">
-                    <h1>SPA</h1>
+                    <h1>Препроцессоры CSS</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
@@ -30,11 +30,11 @@
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение</a>
-                            <ul class=я"dropdown-menu">
+                            <ul class="dropdown-menu">
                                 <li class="nav-item @if(request()->is('about')) active @endif">
-                                    <a class="nav-link" href="{{ route('about') }}">Что такое SPA?</a>
+                                    <a class="nav-link" href="{{ route('about') }}">Что такое Препроцессоры?</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('coursesSpa') }}">Разработка SPA</a></li>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('coursesSpa') }}">Разработка с помощью Препроцессоров CSS</a></li>
                                 <!-- <li class="nav-item"><a class="nav-link" href="portfolio-details.html">В разработке</a></li> -->
                             </ul>
                         </li>
