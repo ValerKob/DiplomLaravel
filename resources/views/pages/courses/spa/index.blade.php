@@ -15,7 +15,7 @@
             <div class="offset-lg-1 col-lg-5">
                 <div class="main_title text-left">
                     <h2>
-                        Разработка сайта, на SASS<br />
+                        Разработка сайта, на Laravel и React, при помощи SASS<br />
                     </h2>
                     <style>
                         p {

@@ -55,7 +55,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Поcле того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого прописать, код который можно скопировать из листинга.
+                            Поcле того как перетащив весь контент из html в JSX, нужно отрисовать дизайн данных принятых из базы данных, чтобы всё выглядело как на картинке, нужно скопировать код который находиться ниже в листинге.
                         </p>
                     </div>
                 </div>
@@ -86,42 +86,22 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    constructor(props) {
-                    super(props);
-                    this.state = {
-                    users: [],
-                    idUser: '',
-                    };
-                    }
+                    @mixin button-style($background-color, $text-color) { <br>
+                        display: inline-block;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        background-color: $background-color;
+                        color: $text-color;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: bold;
+                        cursor: pointer; <br><br>
 
-                    componentDidMount() {
-                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
-                    .then((res) => res.json())
-                    .then((result) => {
-                    this.setState({
-                    users: result,
-                    });
-                    })
-                    .catch((error) => console.log(error));
-                    }
-
-                    submit(id, userId) {
-                    console.log(userId);
-                    fetch(
-                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
-                    {
-                    method: 'DELETE',
-                    headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                    },
-                    }
-                    ).then(function (response) {
-                    response.json().then(function (resp) {
-                    console.log(resp);
-                    window.location.href = 'http://localhost:3000/AdminShift';
-                    });
-                    });
+                        &:hover {
+                            background-color: lighten($background-color, 10%);
+                        }
+                        <br>
                     }
                 </div>
             </div>
@@ -130,7 +110,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Итоговый результат действий, это получение списка всех сотрудников и всех заказов и вывода их на экран, результат того, что должно получиться можно увидеть не рисунке.
+                            Итоговый результат действий, это получение списка всех сотрудников и всех заказов и вывода их на экран, результат того, что должно получиться можно увидеть на рисунке.
                         </p>
                     </div>
                 </div>
@@ -150,10 +130,10 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Теперь, после проделанных дейсвий, нужно сделать возможно добавлять сотрудников, для этого создать файл AdminShiftModal.jsx и перетащить из файла admin-shift-modal.html.
+                            Теперь, после проделанных дейсвий, нужно сделать страницу добавлять сотрудников, для этого создать файл AdminShiftModal.jsx и перетащить из файла admin-shift-modal.html.
                         </p>
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            Теперь нужно прописать код для взаимодействия с базой данных, чтобы получить весь список пользователей и вывести все данныe на экран, а так же возможность добавлять на смену нового сотрудника, код можно скопировать из Листинга.
+                            Теперь нужно прописать код стиле для взаимодействия пользователя с интерфейсом, чтобы всё выглдело красиво и так как на рисунке ниже, нужно код скопировать из Листинга.
                         </p>
                     </div>
                 </div>
@@ -199,42 +179,31 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    constructor(props) {
-                    super(props);
-                    this.state = {
-                    users: [],
-                    idUser: '',
-                    };
+                    a{ <br>
+                    color: #0f7afc;
+                    &:hover{
+                    color: #cf0000;
+                    }<br>
+                    &:visited{
+                    color: #800080;
+                    }<br>
                     }
-
-                    componentDidMount() {
-                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
-                    .then((res) => res.json())
-                    .then((result) => {
-                    this.setState({
-                    users: result,
-                    });
-                    })
-                    .catch((error) => console.log(error));
+                    @mixin good-text {
+                    font: {
+                    family: Arial;
+                    size: 20px;
+                    weight: bold;
                     }
-
-                    submit(id, userId) {
-                    console.log(userId);
-                    fetch(
-                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
-                    {
-                    method: 'DELETE',
-                    headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                    },
-                    }
-                    ).then(function (response) {
-                    response.json().then(function (resp) {
-                    console.log(resp);
-                    window.location.href = 'http://localhost:3000/AdminShift';
-                    });
-                    });
+                    }<br>
+                    .page-text {
+                    color: #000000;
+                    }<br>
+                    .menu-text {
+                    color: #ff0000;
+                    }<br>
+                    .tip-text {
+                    color: #ffffff;
+                    background-color: #000000;
                     }
                 </div>
             </div>
