@@ -34,7 +34,8 @@
                 </button>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav menu_nav justify-content-end">
+                    <ul class="nav navbar-nav menu_nav justify-content-end" style="list-style-type: none;
+                            font-size: 14px;">
                         <li class="nav-item" style="display: flex; align-items: center;">
                             <img id="specialButton" style="cursor:pointer;" src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
                         </li>
@@ -71,9 +72,9 @@
                         </li>
                     </ul>
                     <style> 
-                        li {
-                            list-style-type: none;
-                        }
+                            .nav-item::before {
+                                display: none;
+                            }
                     </style>
 
                     <form class="d-flex" role="search">
