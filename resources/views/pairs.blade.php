@@ -14,8 +14,6 @@
 
 <body class="scroll">
 <main>
-
-
     <div class="col-12">
         <div class="game-wrap">
             <!-- блок с игрой -->
