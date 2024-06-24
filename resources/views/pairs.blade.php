@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="{{ asset('css/noty.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="shortcut icon" href="{{ asset('images/logo2.svg') }}" type="image/x-icon">
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="../assets/vendors/linericon/style.css" />
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="../assets/vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 
 <body class="scroll">
