@@ -71,8 +71,8 @@
                         </li>
                     </ul>
                     <style> 
-                        ul {
-                             list-style-type: none;
+                        li {
+                            list-style-type: none;
                         }
                     </style>
 
