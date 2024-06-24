@@ -44,6 +44,7 @@
                                     background-color: #fff;
                                 }
                             }
+
                         </style>
                         <li class="nav-item @if(request()->is('/')) active @endif">
                             <a class="nav-link" href="{{ route('main') }}">Главная</a>
@@ -69,6 +70,12 @@
                             <a class="nav-link" href="contact.html"></a>
                         </li>
                     </ul>
+                    <style> 
+                        ul {
+                             list-style-type: none;
+                        }
+                    </style>
+
                     <form class="d-flex" role="search">
                         <!-- @if(session('id'))
                         <a href="{{ route('deleteSession') }}" class="btn btn-outline-danger" type="submit">Выход</a>
