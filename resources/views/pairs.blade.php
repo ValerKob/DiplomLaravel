@@ -269,31 +269,6 @@
     </script>
 </main>
 
-<footer class="d-flex align-items-center footer">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="footer-nav col-lg-3 d-flex flex-column">
-                <p class="changeable-text">Bootstrap 5.3.2</p>
-                <span ><a class="changeable-text" target="_blank" href="https://getbootstrap.com/docs/versions/">Документация</a></span>
-                <span><a class="changeable-text" target="_blank" href="https://getbootstrap.com/docs/5.3/examples/">Примеры</a></span>
-                <span><a class="changeable-text" target="_blank" href="https://icons.getbootstrap.com/">Иконки</a></span>
-                <span><a class="changeable-text" target="_blank" href="https://themes.getbootstrap.com/">Темы</a></span>
-                <span><a class="changeable-text" target="_blank" href="https://blog.getbootstrap.com/">Блог</a></span>
-            </div>
-
-            <div class="footer-nav col-lg-4 d-flex mt-5 mt-lg-0 flex-column">
-                <p class="changeable-text">Автор</p>
-                <span class="changeable-text">Киценко И. В.</span>
-                <span class="changeable-text">Ilyakitsenko@proton.me</span>
-                <span class="changeable-text">2023-2024</span>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
-
 
 <script>
     function copyFunc(id) {
