@@ -109,12 +109,12 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="tutorial" tabindex="-1" data-bs-keyboard="false">
+    <div class="modal fade" id="tutorial" tabindex="-1" data-bs-keyboard="false" style="color: black; margin-top: 100px">
         <div class="modal-dialog mark-modal">
             <div class="modal-content h-100 w-100">
-                <div class="modal-body col-12">
-                    <p id="inmodal-text" class="text-center mt-3">Это страница, где вы можете опробовать интерактивную мини-игру.</p>
-                    <p id="inmodal-text" class="text-center mt-3">Найдите все пары изученных классов</p>
+                <div class="modal-body col-12" style="color: black">
+                    <p id="inmodal-text" class="text-center mt-3"style="color: black">Это страница, где вы можете опробовать интерактивную мини-игру.</p>
+                    <p id="inmodal-text" class="text-center mt-3"style="color: black">Найдите все пары изученных классов</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" data-bs-dismiss="modal" class="hero-btn inmodal-btn mb-3">Ок</button>
