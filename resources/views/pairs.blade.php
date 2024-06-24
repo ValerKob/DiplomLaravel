@@ -13,39 +13,6 @@
 </head>
 
 <body class="scroll">
-<header>
-    <div class="container d-flex align-items-center justify-content-center p-0 m-auto">
-        <div class="fixed-top nav-fixed-bg">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <div class="col-1">
-                        <a href="{{ route('home') }}"><img src="{{ asset('images/logo2.svg') }}" alt="logotype" class="logo-rotate"></a>
-                    </div>
-                    <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-center lg-d-flex justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav col-lg-9 d-flex justify-content-between">
-                            <a class="p-3 p-lg-0" href="{{ route('home') }}#lessons">Уроки</a>
-                            <a class="p-3 p-lg-0" href="{{ route('practiceList') }}">Практика</a>
-                            <a class="p-3 p-lg-0" href="{{ route('testsList') }}">Тесты</a>
-                            <a class="p-3 p-lg-0" href="{{ route('game') }}">Интерактив</a>
-                            <a class="p-3 p-lg-0" href="{{ route('editor') }}">Редактор кода</a>
-                            <div>
-                                <span class="p-3 me-3 p-lg-0 theme-switcher"><img src="{{ asset('images/theme-btn.svg') }}" alt="theme-btn"></span>
-                                <a class="p-3 p-lg-0 profile-icon" href="{{ route('profile') }}"><img src="{{ asset('images/profile-btn.svg') }}" alt="profile-btn"></a>
-                                @if(Auth::check())
-                                    <a class="p-3 p-lg-0 profile-icon ms-3 " href="{{ route('logout') }}"><img src="{{ asset('images/profile/logout.svg') }}" class="logout-icon" alt="profile-btn"></a>
-                                @endif
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-</header>
-
 <main>
 
 
