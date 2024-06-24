@@ -25,6 +25,35 @@
                                 <!-- <a class="primary_btn" href="#about"><span>Подробнее</span></a> -->
                                 <!-- <a class="primary_btn tr-bg" href="../assets/files/SPA.docx" download=""><span>Скачать</span></a> -->
                             </div>
+                                <li class="primary_btn @if(request()->is('interactive')) active @endif">
+                                    <a class="nav-link" href="{{ route('interactive') }}">Интерактиве</a>
+                                </li>
+                                <li class="primary_btn submenu dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="primary_btn @if(request()->is('about')) active @endif">
+                                            <a class="nav-link" href="{{ route('about') }}">Что такое Препроцессоры?</a>
+                                        </li>
+                                        <li class="primary_btn"><a class="nav-link" href="{{ route('coursesSpa') }}">Разработка с помощью Препроцессоров CSS</a></li>
+                                        <!-- <li class="primary_btn"><a class="nav-link" href="portfolio-details.html">В разработке</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="primary_btn @if(request()->is('testSpa')) active @endif"><a class="nav-link" href="{{ route('testSpa') }}">Проверка знаний</a></li>
+                            <style>
+                                .primary_btn {
+                                   
+                                    widows: auto;
+                                    max-width: 220px;
+                                }
+
+                                .primary_btn:hover > a {
+                                    color: black;
+                                }
+
+                                .primary_btn > a {
+                                     color: white;
+                                }
+                            </style>
                     </div>
                 </div>
                 <div class="col-lg-5">
