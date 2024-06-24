@@ -52,7 +52,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            После того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого пропишем код, который можно скопировать из листинга.
+                            После того как перетащив весь контент из html в JSX, нужно задачать стили и дизайн окну администратора, чтобы их выводить на экран, для этого пропишем код, который можно скопировать из листинга.
                         </p>
                     </div>
                 </div>
@@ -83,43 +83,101 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    constructor(props) {
-                    super(props);
-                    this.state = {
-                    users: [],
-                    idUser: '',
-                    };
-                    }
 
-                    componentDidMount() {
-                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
-                    .then((res) => res.json())
-                    .then((result) => {
-                    this.setState({
-                    users: result,
-                    });
-                    })
-                    .catch((error) => console.log(error));
-                    }
+* {<br>
+  margin: 0;<br>
+  padding: 0;<br>
+}<br>
 
-                    submit(id, userId) {
-                    console.log(userId);
-                    fetch(
-                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
-                    {
-                    method: 'DELETE',
-                    headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                    },
-                    }
-                    ).then(function (response) {
-                    response.json().then(function (resp) {
-                    console.log(resp);
-                    window.location.href = 'http://localhost:3000/AdminShift';
-                    });
-                    });
-                    }
+body {<br>
+  background: linear-gradient(#113156, #070731);<br>
+  height: 100vh;<br>
+  width: 100vw;<br>
+}<br>
+
+#container {<br>
+  max-width: 100vw;<br>
+  height: 100vh;<br>
+  position: fixed;<br>
+  width: 100%;<br>
+  left: 50%;<br>
+  top: 0;<br>
+  transform: translate(-50%);<br>
+  display: flex;<br>
+  align-items: center;<br>
+  justify-content: center;<br>
+  background-image: radial-gradient(#203462 2px, transparent 2px);<br>
+  background-size: calc(10 * 2px) calc(10 * 2px);<br>
+}<br>
+
+.container-inner {<br>
+  background: #a4363e;<br>
+  padding: 40px;<br>
+  border-radius: 30px;<br>
+  box-shadow: 5px 6px 0px -2px #620d15, -6px 5px 0px -2px #620d15,<br>
+    0px -2px 0px 2px #ee9191, 0px 10px 0px 0px #610c14,<br>
+    0px -10px 0px 1px #e66565, 0px 0px 180px 90px #0d2f66;<br>
+  width: 640px;<br>
+}<br>
+
+.content {<br>
+  font-family: "Skranji", cursive;<br>
+  background: radial-gradient(#fffbf3, #ffe19e);<br>
+  padding: 24px;<br>
+  box-sizing: border-box;<br>
+  border-radius: 20px 18px 20px 18px;<br>
+  box-shadow: 0px 0px 0px 6px #5e1e21, 0px 0px 8px 6px #84222b,<br>
+    inset 0px 0px 15px 0px #614506, 6px 6px 1px 1px #e66565,<br>
+    -6px 6px 1px 1px #e66565;<br>
+  text-align: center;<br>
+
+  p {<br>
+    font-size: 56px;<br>
+    padding: 40px;<br>
+    box-sizing: border-box;<br>
+    color: #461417;<br>
+  }<br>
+}<br>
+
+.buttons {<br>
+  margin-top: 40px;<br>
+  display: flex;<br>
+  justify-content: normal;<br>
+  align-items: center;<br>
+  gap: 30px;<br>
+  box-sizing: border-box;<br>
+
+  button {<br>
+    padding: 20px;<br>
+    flex: 1;<br>
+    border-radius: 20px;<br>
+    border: 2px solid #49181e;<br>
+    font-family: "Skranji", cursive;<br>
+    color: #fff;<br>
+    font-size: 32px;<br>
+    text-shadow: 1px 2px 3px #000000;<br>
+    cursor: pointer;<br>
+
+    &.confirm {<br>
+      background: linear-gradient(#ced869, #536d1b);<br>
+      box-shadow: 0px 0px 0px 4px #7e1522, 0px 2px 0px 3px #e66565;<br>
+      &:hover {<br>
+      box-shadow: 0px 0px 0px 4px #7e1522, 0px 2px 0px 3px #e66565,<br>
+        inset 2px 2px 10px 3px #4e6217;<br>
+      } <br>
+    }<br>
+
+    &.cancel {<br>
+      background: linear-gradient(#ea7079, #891a1a);<br>
+      box-shadow: 0px 0px 0px 4px #7e1522, 0px 2px 0px 3px #e66565;<br>
+      &:hover {<br>
+      box-shadow: 0px 0px 0px 4px #7e1522, 0px 2px 0px 3px #e66565,<br>
+        inset 2px 2px 10px 3px #822828;<br>
+      }<br>
+    }<br>
+  }<br>
+} <br>
+
                 </div>
             </div>
             <div class="row mt-5">
@@ -543,7 +601,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 258px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
@@ -1551,7 +1609,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 70px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         padding-block-end: 24px;

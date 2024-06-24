@@ -50,7 +50,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style="text-indent: 20px; margin-top: 50px;">
-                            После того как перетащив весь контент из html в JSX, нужно получить данные из базы данных, чтобы их выводить на экран, для этого пропишем код который можно скопировать из листинга.
+                            После того как перетащив весь контент из html в JSX, нужно сделать стили, чтобы было понятно, где что находиться и чтобы их выводить на экран, для этого пропишем код который можно скопировать из листинга.
                         </p>
                     </div>
                 </div>
@@ -81,43 +81,94 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    constructor(props) {
-                    super(props);
-                    this.state = {
-                    users: [],
-                    idUser: '',
-                    };
-                    }
+                    <br>
+/*Dialog Styles*/ <br>
+dialog { <br>
+	padding: 1rem 3rem; <br>
+	background: white; <br>
+	max-width: 400px; <br>
+	padding-top: 2rem; <br>
+	border-radius: 20px; <br>
+	border: 0; <br>
+	box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%); <br>
+	animation: fadeIn 1s ease both; <br>
+	&::backdrop { <br>
+		animation: fadeIn 1s ease both; <br>
+		background: rgb(255 255 255 / 40%); <br>
+		z-index: 2; <br>
+		backdrop-filter: blur(20px); <br>
+	} <br>
+	.x { <br>
+		filter: grayscale(1); <br>
+		border: none; <br>
+		background: none; <br>
+		position: absolute; <br>
+		top: 15px; <br>
+		right: 10px; <br>
+		transition: ease filter, transform 0.3s; <br>
+		cursor: pointer; <br>
+		transform-origin: center; <br>
+		&:hover { <br>
+			filter: grayscale(0); <br>
+			transform: scale(1.1); <br>
+		} <br>
+	} <br>
+	h2 { <br>
+		font-weight: 600; <br>
+		font-size: 2rem; <br>
+		padding-bottom: 1rem; <br>
+	} <br>
+	p { <br>
+		font-size: 1rem; <br>
+		line-height: 1.3rem; <br>
+		padding: 0.5rem 0; <br>
+		a { <br>
+			&:visited { <br>
+				color: rgb(var(--vs-primary)); <br>
+			} <br>
+		} <br>
+	} <br>
+} <br>
 
-                    componentDidMount() {
-                    fetch('http://127.0.0.1:8000/api-cafe/work-shift')
-                    .then((res) => res.json())
-                    .then((result) => {
-                    this.setState({
-                    users: result,
-                    });
-                    })
-                    .catch((error) => console.log(error));
-                    }
+/*General Styles*/ <br>
+body { <br>
+	height: 100vh; <br>
+	display: flex; <br>
+	align-items: center;
+	justify-content: center; <br>
+	font-family: Poppins, sans-serif; <br>
+	background: url(https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80)
+		no-repeat center center; <br>
+	background-size: cover; <br>
+} <br>
+button.primary { <br>
+	display: inline-block; <br>
+	font-size: 0.8rem; <br>
+	color: #fff !important; <br>
+	background: rgb(var(--vs-primary) / 100%); <br>
+	padding: 13px 25px; <br>
+	border-radius: 17px; <br>
+	transition: background-color 0.1s ease; <br>
+	box-sizing: border-box; <br>
+	transition: all 0.25s ease; <br>
+	border: 0; <br>
+	cursor: pointer; <br>
+	box-shadow: 0 10px 20px -10px rgb(var(--vs-primary) / 50%); <br>
+	&:hover { <br>
+		box-shadow: 0 20px 20px -10px rgb(var(--vs-primary) / 50%); <br>
+		transform: translateY(-5px); <br>
+	} <br>
+} <br>
+ <br>
+@keyframes fadeIn { <br>
+	from { <br>
+		opacity: 0; <br>
+	} <br>
+	to { <br>
+		opacity: 1; <br>
+	} <br>
+} <br>
 
-                    submit(id, userId) {
-                    console.log(userId);
-                    fetch(
-                    'http://127.0.0.1:8000/api-cafe/work-shift/' + id + '/user/' + userId,
-                    {
-                    method: 'DELETE',
-                    headers: {
-                    Accept: 'application/json',
-                    'Content-Type': 'application/json',
-                    },
-                    }
-                    ).then(function (response) {
-                    response.json().then(function (resp) {
-                    console.log(resp);
-                    window.location.href = 'http://localhost:3000/AdminShift';
-                    });
-                    });
-                    }
                 </div>
             </div>
             <div class="row mt-5">
@@ -216,7 +267,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 25 8px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
@@ -1224,7 +1275,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 70px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         padding-block-end: 24px;
