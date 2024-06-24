@@ -7,7 +7,7 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">3 Урок <br>Установка фреймворка React</h2>
+            <h2 class="text-left" style="color: #000;">3 Урок <br>Добавление стилей</h2>
         </div>
         <div class="">
             <div class="row">
@@ -25,15 +25,13 @@
                             }
                         </style>
                         <p>
-                            Для разработки SPA приложения, будет использоваться JavaScript фреймворк React.
-                        <p>
-                            Для установки фреймворка React необходимо в папке проекта api_v2 создать папку с именем tasks3.
+                            Для разработки сайта, будет испоьзоваться препроцессор SCSS.
                         </p>
                     </div>
                 </div>
             </div>
             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                В терминале в папке tasks3 ввести следующие команды (команды можно скопировать, нажав на кнопку copy):
+               Для сбора стилей можно скопировать, нажав на кнопку copy:
             </p>
             <div id="DIV_1">
                 <div id="DIV_2">
@@ -59,55 +57,107 @@
                     </div>
                 </div>
                 <div id="DIV_12">
-                    npx create-react-app my-app
-                    <br>
-                    cd my-app
-                    <br>
-                    npm start
+                   :root {<br>
+  --primary-color: #ff5e3a;<br>
+  --default-color: #4f5665;<br>
+  --black-color: #000;<br>
+  --grey-color: #f0f0f0;<br>
+  --white-color: #fff;<br>
+  --lightpink: #ffcce0;<br>
+  --blue: #1a1aff;<br>
+  --custom: #1a1aff;<br>
+  --color: #4d4d4d;<br>
+  --lightblue: #ccccff;<br>
+  --box-shadow-1: 0 5px 15px rgba(0, 0, 0, 0.1);<br>
+  --box-shadow-2: 0 5px 15px rgba(255, 94, 58, 0.2);<br>
+  --gradient: linear-gradient(to bottom, #fccb90, #ff9a9e);<br>
+  --btn-gradient: linear-gradient(to bottom, #ff5151 50%, #ff5e3a);<br>
+}<br>
+
+*,<br>
+*::after,<br>
+*::before {<br>
+  box-sizing: inherit;<br>
+  margin: 0;<br>
+  padding: 0;<br>
+  border: none;<br>
+  outline: none;<br>
+}<br>
+<br>
+html {<br>
+  font-size: 62.5%;<br>
+  box-sizing: border-box;<br>
+}<br>
+<br>
+body {<br>
+  font-family: 'Roboto', sans-serif;<br>
+  font-size: 1.6rem;<br>
+  font-weight: 400;<br>
+  color: var(--black-color);<br>
+  background-color: var(--white-color);<br>
+}<br>
+<br>
+h1,<br>
+h2,<br>
+h3,<br>
+h4 {<br>
+  color: var(--black-color);<br>
+  line-height: 1.2;<br>
+  font-weight: 500;<br>
+}<br>
+
+a {<br>
+  text-decoration: none;<br>
+  color: inherit;<br>
+}<br>
+
+li {<br>
+  list-style-type: none;<br>
+}<br>
+
+section {<br>
+  padding: 5rem 0 5rem;<br>
+  overflow: hidden;<br>
+}<br>
+
+p {<br>
+  line-height: 3rem;<br>
+}<br>
+
+img {<br>
+  max-width: 100%;<br>
+  height: auto;<br>
+}<br>
                 </div>
             </div>
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                npx create-react-app my-app - создание React приложения.
-            </p>
-
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                cd my-app - переход в папку my-app, которая создаётся автоматически.
-            </p>
-
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                npm start - запуск React приложения.
-            </p>
-            <p style="text-indent: 20px; margin-top: 50px; margin-bottom: 50px;">
-                После ввода команд, проект автоматически откроется в браузере и запуститься.
-            </p>
             <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <p>
+                           Далее пропишем классы для наших полей
+                        </p>
+                    </div>
+                </div>
                 <div class="col-lg-6">
                     <div class="left_img">
                         <img class="img-fluid" src="../assets/img/tasks/tasks3.png" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="left_img">
+                        <img class="img-fluid" src="../assets/img/tasks/tasks4new.png" alt="">
+                    </div>
+                </div>
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            Документацию по более подробной установке можно найти по ссылке <a href="https://create-react-app.dev/docs/getting-started/">Документация</a>
+                           После написания стилей и Добавление классов, итоговый результат можно увидеть на картинке.
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
-                        <h4 class="text-uppercase">Видео ролик к уроку</h4>
-                        <p style="text-indent: 20px;">
-                            В видео подробно рассказано и показано, как установить фреймворк ReactJS.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="portfolio_right_text mt-30">
-                        <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/MySDMq6BUJI" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -177,7 +227,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 140px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
@@ -1185,7 +1235,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 70px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         padding-block-end: 24px;

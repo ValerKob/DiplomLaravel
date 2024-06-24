@@ -15,7 +15,7 @@
             <div class="offset-lg-1 col-lg-5">
                 <div class="main_title text-left">
                     <h2>
-                        Разработка сайта, на Laravel и React, при помощи SASS<br />
+                        Разработка сайта при помощи препроцессор CSS<br />
                     </h2>
                     <style>
                         p {
@@ -30,7 +30,7 @@
                     <p>
                         Разработать информационную систему
                         для отработки и изучения материала, для более лучшего его усвоения. <br>
-                        Основная задача системы - показать применение SASS. <br>
+                        Основная задача системы - показать применение SCSS. <br>
                         Файл с заданием, а также дополнительные материалы можно загрузить, нажав на кнопку "Скачать".
                         <!-- Разрабатывать SPA, будем,
                         на примере 3 задания для чемпионата молодые проффесионалы!!!
@@ -38,7 +38,7 @@
                         решать задания для Rest API и как азработать SPA, так же по ссылочке можно скачать задание,
                         и проходить урок за уроком!!! -->
                     </p>
-                    <a class="primary_btn" href="../assets/files/Zadanie_SPA_zip.zip" download><span>Скачать</span></a>
+                    <a class="primary_btn" href="../assets/files/site.zip" download><span>Скачать</span></a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    {{-- <div class="col-lg-4 col-md-4 col-sm-6">
                         <a href="{{ route('threepagesSpa') }}">
                             <div class="single-brand-item d-table">
                                 <div class="d-table-cell text-center">
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

@@ -26,9 +26,7 @@
                             }
                         </style>
                         <p>
-                            Перед началом работы, необходимо распаковать архив, с материалами задания, запустить виртуальный хостинг OpenServer.
-                        <p>
-                            После запуска сервера, переместить в папку "domains", папку под названием "api_v2-main", как показано на рисунке.
+                            Перед началом работы, необходимо распаковать архив, с материалами задания.
                         </p>
                     </div>
                 </div>
@@ -38,7 +36,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p style=" margin-top: 50px;">
-                            Открыть проект с помощью IDE Visual Studio Code, полная инструкция по установке проекта описана в файлe "README.md".
+                            Открыть проект с помощью IDE Visual Studio Code.
                         </p>
                     </div>
                 </div>
@@ -58,108 +56,12 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="mt-30">
                         <p style=" margin-top: 50px;">
-                            Далее необходимо открыть терминал OpenServer и в терминале перейти в папку проекта "api_v2-main", для этого в терминале надо ввести команду "cd 'путь к папке' ", как показано на рисунке.
+                            Далее необходимо создать html файл, как показано на рисунке.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p style=" margin-top: 50px;">
-                            Прежде чем продолжать разворачивать проект, нужно изменить параметры в файле ".env". Для этого надо переименовать файл ".env.example" в ".env", открыть его, изменить константу "DB_PASSWORD=root" на "DB_PASSWORD=", как показано на рисунке.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img text-center">
-                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainFourTasks.png" alt="">Ц
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-lg-6 ">
-                    <div class="left_img text-center">
-                        <img style="margin-top: 30px; width: 450px; height: 400px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/mainFvieTasks.png" alt="">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="mt-30">
-                        <p style=" margin-top: 50px;">
-                            Перед началом работы, с помощью приложения phpMyAdmin, создать базу данных с именем "api_v2". Для открытия приложения phpMyAdmin необходимо нажать на иконку зелёного флажка на панели задач, в появившемся меню выбрать пункт Дополнительно -> phpMyAdmin. При созданий базы данных выбрать кодировку "utf8mb4_unicode_ci", как показано на рисунке.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                В терминале ввести следующие команды (команды можно скопировать, нажав на кнопку copy):
-            </p>
-            <div id="DIV_1">
-                <div id="DIV_2">
-                    <div id="DIV_3">
-                        <div id="DIV_4">
-                            <svg id="svg_5">
-                                <path id="path_6">
-                                </path>
-                            </svg> Terminal
-                        </div>
-                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                            <button id="BUTTON_8">
-                            </button>
-                            <svg id="svg_9">
-                                <path id="path_10">
-                                </path>
-                                <path id="path_11">
-                                </path>
-                            </svg>
-                            <!-- -->
-                            Copy
-                        </div>
-                    </div>
-                </div>
-                <div id="DIV_12">
-                    composer i
-                    <br>
-                    php artisan migrate --seed
-                    <br>
-                    php artisan key:generate
-                    <br>
-                    php artisan serve
-                </div>
-            </div>
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                composer i - установка composera - менеджера загрузки проектов, на основе Laravel.
-            </p>
-
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                php artisan migrate --seed - выполнение миграций для создания и заполнения базы данных проекта.
-            </p>
-
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                php artisan key:generate - создание уникального ключа проекта.
-            </p>
-
-            <p style=" margin-top: 40px; margin-bottom: 40px;">
-                php artisan serve - запуск сервера API.
-            </p>
-
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p style=" margin-top: 50px;">
-                            После выполнения этих команд проект должен запуститься в браузере на хосте "http://127.0.0.1:8000", сайт должен выглядеть как показано на рисунке.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img text-center">
-                        <img style="margin-top: 50px; width: 450px; height: 400px" class="img-fluid" src="../assets/img/tasks/mainSixTasks.png" alt="">
-                    </div>
-                </div>
-            </div>
             {{-- <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="portfolio_right_text mt-30">

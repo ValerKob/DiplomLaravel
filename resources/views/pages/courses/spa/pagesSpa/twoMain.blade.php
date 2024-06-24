@@ -4,138 +4,65 @@
 
 @section('content')
 <!--================Start Portfolio Details Area =================-->
-<section class="portfolio_details_area section_gap">
+<section class="portfolio_details_area section_gap" style="padding: 200px 0 100px 0;">
     <div class="container">
-        <style>
-            p {
-                text-align: justify;
-                font-size: 20px;
-            }
-        </style>
-        <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">4 Урок <br>Работа с NavLink</h2>
-        </div>
-        <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-            Для того, чтобы переходить по страницам без перезагрузки, используем тег NavLink. Тег NavLink является объектом,
-            определенным в модуле react-router-dom. Продемонстрируем использование этого объекта. <br>
-            <br>
-            Для установки модуля react-router-dom необходимо ввести в терминал следующую команду:
-        </p>
         <div class="">
-            <div id="DIV_1">
-                <div id="DIV_2">
-                    <div id="DIV_3">
-                        <div id="DIV_4">
-                            <svg id="svg_5">
-                                <path id="path_6">
-                                </path>
-                            </svg> Terminal
-                        </div>
-                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                            <button id="BUTTON_8">
-                            </button>
-                            <svg id="svg_9">
-                                <path id="path_10">
-                                </path>
-                                <path id="path_11">
-                                </path>
-                            </svg>
-                            <!-- -->
-                            Copy
-                        </div>
-                    </div>
-                </div>
-                <div id="DIV_12">
-                    npm i react-router-dom -save
-                </div>
-            </div>
-            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                После ввода команды, в файле package.json должно появиться имя и версия модуля "react-router-dom": "^4.3.1".
-            </p>
-            <div class="row mt-5">
-                <div class="col-lg-6 text-start">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks41.png" alt="">
-                    </div>
-                </div>
+            <div class="row">
                 <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
+                    <div class="mt-30">
+                        <style>
+                            p {
+                                text-align: justify;
+                                font-size: 20px;
+                            }
+                        </style>
+                        <h4 class="text-uppercase">Итоги</h4>
                         <p>
-                            В папке проекта создать папку, Pages и в ней два файла test.jsx и Glav.jsx - страницы сайта. <br>
-                            <br>
-                            Чтобы создать страницы Test и Glav, импортируем их из соответсвующих файлов /pages/test и /pages/Glav. Для импорта страниц в файле App.js запишем код представленный на рисунке
+                            По резултатам, получаем готовый сайт на SCSS!
                         <p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            Для отрисовки определённой страницы, по определённому пути понадобятся Роуты, для их создания. Необхлдимо в файле App.js ввести код представленный на рисунке
-                        <p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/tasks41New.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-lg-6 text-start">
-                    <div class="left_img">
-                        <img class="img-fluid" src="../assets/img/tasks/newPages.png" alt="">
-                    </div>
-                </div>
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30">
-                        <p>
-                            Внутри файлов test.jsx и Glav.jsx, прописать NavLink, указать в теге to, название ссылки на страницу определённую страницу.
-                        <p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
-                        <h4 class="text-uppercase">Видео ролик к уроку</h4>
-                        <p style="text-indent: 20px;">
-                            В видео подробно рассказано и показано, как установить NavLink в ReactJS.
+                            Все материалы вы модеже получить по это ссылке
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
-                        <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/1LHK0JQOQOw" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p>
+                            <a class="primary_btn" href="../../assets/files/siteFinal.zip" target="_blank" download><span>Скачать ПРОЕКТ</span></a>
+                        <p>
+                            <!-- <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Посмотреть результаты</span></a> -->
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<!--================End Portfolio Details Area =================-->
-<a class="text-center" style="cursor: pointer; color: #000; margin-bottom: 10px;" onclick="window.history.go(-1); return false;">
-    <div class="main_title text-center">
-        <span class="primary_btn" style="width: 150px;">Назад</span>
-    </div>
-</a>
-<h1 class="text-center mb-5">Урок №:</h1>
-<!--================ Srart Brand Area =================-->
-<section class="brand_area section_gap_bottom">
-    <div class="container">
-        <div class="row justify-content-center">
-            <a href="{{ route('threepagesSpa') }}">
-                <div class="single-brand-item d-table">
-                    <div class="d-table-cell text-center">
-                        <h1>5</h1>
+            <!-- <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
+                        <h4 class="text-uppercase">Конец видео урока.</h4>
                     </div>
                 </div>
-            </a>
+                <div class="col-lg-6">
+                    <div class="portfolio_right_text mt-30">
+                        <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/1_9c5KrMdpE" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="row mt-5">
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="portfolio_right_text mt-30">
+                        <iframe class="video" width="100" height="576" src="https://www.youtube.com/embed/VA6ZtniXgB8" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="offset-lg-1 col-lg-5">
+                        <div class="portfolio_right_text mt-30" style="margin-top: 30px;">
+                            <h4 class="text-uppercase">Посмотреть видео ролик</h4>
+                            <p>
+                                Вы можете так же посмотреть видео ролик
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
-    </div>
 </section>
-<!--================ End Brand Area =================-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
     function copyToClipboard(element) {
@@ -147,6 +74,12 @@
     }
 </script>
 <style>
+    .video {
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+    }
+
     @media (max-width: 1199px) {
         .brand_area {
             padding-bottom: 160px;

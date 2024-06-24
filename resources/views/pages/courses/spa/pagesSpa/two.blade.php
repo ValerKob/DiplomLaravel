@@ -7,7 +7,7 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 50px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа с проектом и настроика API</h2>
+            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа с проектом, делаем скилет сайта</h2>
         </div>
         <div class="">
             <div class="row">
@@ -25,88 +25,8 @@
                             }
                         </style>
                         <p>
-                            Прежде чем приступить к работе, необходимо разобраться, как работает предоставленное API: какие роуты используются и как к ним обращаться. Роуты - это маршруты или ссылки, благодаря которым можно получить данные. Они необходимы, чтобы организовать работу с данными в приложении: их удаление, добавление, изменение и просмотр.
-                        <p>
-                            В папке проекта открыть файл "api.php", содержащий все роуты, а так же информацию о контроллерах, отвечающих за действие конкретных портов. Содержимое файла показано на рисунке.
+                            Теперь наша задача сделать скилет сайта, создать блоки в которых у нас будет содержаться текстовая информация.
                         </p>
-                    </div>
-                </div>
-            </div>
-
-            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
-                В терминале ввести следующую команду (команду можно скопировать, нажав на кнопку copy):
-            </p>
-
-            <div class="">
-                <div id="DIV_1">
-                    <div id="DIV_2">
-                        <div id="DIV_3">
-                            <div id="DIV_4">
-                                <svg id="svg_5">
-                                    <path id="path_6">
-                                    </path>
-                                </svg> Terminal
-                            </div>
-                            <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
-                                <button id="BUTTON_8">
-                                </button>
-                                <svg id="svg_9">
-                                    <path id="path_10">
-                                    </path>
-                                    <path id="path_11">
-                                    </path>
-                                </svg>
-                                <!-- -->
-                                Copy
-                            </div>
-                        </div>
-                    </div>
-                    <div id="DIV_12">
-                        php artisan route:list
-                    </div>
-                </div>
-                <p style=" margin-top: 40px; margin-bottom: 40px;">
-                    php artisan route:list - вывод списка всех роутов.
-                </p>
-                <div class="row mt-5">
-                    <div class="col-lg-6">
-                        <div class="left_img text-center">
-                            <img style="margin-top: 20px; width: 450px; height: 350px; border: 1px solid #000;" class="img-fluid" src="../assets/img/tasks/twoMainTwoTasks.png" alt="">
-                        </div>
-                    </div>
-                    <div class="offset-lg-1 col-lg-5">
-                        <div class="mt-30">
-                            <style>
-                                p {
-                                    text-align: justify;
-                                    font-size: 20px;
-                                }
-                            </style>
-                            <p>
-                                Используя роуты из выведенного списка, будет осуществляться взаимодействие с сайтом. На этом настройка API закончена.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="offset-lg-1 col-lg-5">
-                        <div class="mt-30" style="margin-top: 30px;">
-                            <h4 class="text-uppercase">Видео ролик к уроку</h4>
-                            <style>
-                                p {
-                                    text-align: justify;
-                                    font-size: 20px;
-                                }
-                            </style>
-                            <p>
-                                В видео подробно рассказано и показано, как найти API и получить все роуты.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="portfolio_right_text mt-30">
-                            <iframe class="video" width="500" height="300" src="https://www.youtube.com/embed/8QbToxG4TCY" title="React JS фундаментальный курс от А до Я" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
                     </div>
                 </div>
             </div>

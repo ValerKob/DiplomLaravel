@@ -30,8 +30,8 @@
          <div class="game-quiz-container">
 
              <div class="game-details-container">
-                 <h1>Счет : <span id="player-score"></span> / 15</h1>
-                 <h1>Вопрос : <span id="question-number"></span> / 15</h1>
+                 <h1>Счет : <span id="player-score"></span> / 5</h1>
+                 <h1>Вопрос : <span id="question-number"></span> / 5</h1>
              </div>
 
              <div class="game-question-container">
@@ -391,216 +391,48 @@
 
      <script>
          const questions = [{
-                 question: "React JS – это?",
-                 optionA: "MVC-фреймворк",
-                 optionB: "JavaScript библиотека",
-                 optionC: "Back-end платформа",
-                 optionD: "фреймворк",
+                 question: "SCSS - что это?",
+                 optionA: "фреймворк",
+                 optionB: "библиотека",
+                 optionC: "платформа",
+                 optionD: "препроцессор",
                  correctOption: "optionD"
              },
 
              {
-                 question: "Где правильно выведен компонент через рендер?",
-                 optionA: "'<'Test>",
-                 optionB: "'<'Test />",
-                 optionC: "'<'/Test>",
-                 optionD: "'<'/ Test>",
+                 question: "В 2009 году появился препроцессор?",
+                 optionA: "Scss",
+                 optionB: "less",
+                 optionC: "Sass",
+                 optionD: "Css",
                  correctOption: "optionB"
              },
 
              {
-                 question: "Как много можно делать запросов к серверу?",
-                 optionA: "Не ограниченное колличество",
-                 optionB: "Всего 1",
-                 optionC: "Всего 5",
-                 optionD: "Всего 25",
+                 question: "В 2006 году появился препроцессор?",
+                 optionA: "Sass",
+                 optionB: "less",
+                 optionC: "Scss",
+                 optionD: "Css",
                  correctOption: "optionA"
              },
 
              {
-                 question: "Какая компания разработала React JS?",
-                 optionA: "Amazon",
-                 optionB: "GitHub",
-                 optionC: "Facebook",
-                 optionD: "Google",
+                 question: "ЧТО ТАКОЕ ПРЕПРОЦЕССОРЫ?",
+                 optionA: "Специальный фрейморк для css",
+                 optionB: "Что-то не понятное",
+                 optionC: "Это Инструмент",
+                 optionD: "Библиотека для html",
                  correctOption: "optionC"
              },
 
              {
-                 question: "Как много компонентов может быть на сайте?",
-                 optionA: "Не более 10",
-                 optionB: "Не более 50",
-                 optionC: "Не более 300",
-                 optionD: "Неограниченное количество",
+                 question: "У какого препроцессора есть два синтаксиса?",
+                 optionA: "Css",
+                 optionB: "less",
+                 optionC: "Scss",
+                 optionD: "Sass",
                  correctOption: "optionD"
-             },
-
-             {
-                 question: "Где правильно создан компонент?",
-                 optionA: "class App React.Component {}",
-                 optionB: "class App extends Component {}",
-                 optionC: "React.Component {}",
-                 optionD: "class App {}",
-                 correctOption: "optionA"
-             },
-
-             {
-                 question: "Какой метод отвечает за вывод информации через React JS компонент?",
-                 optionA: "ReactDOM",
-                 optionB: "react",
-                 optionC: "render",
-                 optionD: "console",
-                 correctOption: "optionC"
-             },
-
-             {
-                 question: "Куда можно встроить готовый код из метода render()?",
-                 optionA: "В любой тег",
-                 optionB: "В div или же в span",
-                 optionC: "Только в div",
-                 optionD: "Только в тег, у которого есть id",
-                 correctOption: "optionA"
-             },
-
-             {
-                 question: "Как обратится к свойству weight?",
-                 optionA: "{props.weight}",
-                 optionB: "{this.prop.weight}",
-                 optionC: "{prop.weight}",
-                 optionD: "{this.props.weight}",
-                 correctOption: "optionD"
-             },
-
-             {
-                 question: "Где правильно передена функция в качестве свойства?",
-                 optionA: "argument={this.someFunction ()}",
-                 optionB: "argument=(this.someFunction {})",
-                 optionC: "argument={someFunction}",
-                 optionD: "argument={this.someFunction}",
-                 correctOption: "optionD"
-             },
-
-             {
-                 question: "От какого класса идет наследование всех компонентов?",
-                 optionA: "Component",
-                 optionB: "ReactComponentDom",
-                 optionC: "React.Component",
-                 optionD: "ReactComponent",
-                 correctOption: "optionC"
-             },
-
-             {
-                 question: "Сколько родительских HTML тегов может быть выведено в React JS компоненте?",
-                 optionA: "Всегда 1",
-                 optionB: "Не более 5",
-                 optionC: "Не более 10",
-                 optionD: "Неограниченное количество",
-                 correctOption: "optionA"
-             },
-             {
-                 question: "Какой командой установить зависимость 'ReactRouteDom'?",
-                 optionA: "npm i react-router-dom -save",
-                 optionB: "npm i react-router-home -save",
-                 optionC: "npm i react-router",
-                 optionD: "npm i react",
-                 correctOption: "optionA"
-             },
-             {
-                 question: "Какой командой установить зависимость 'ReactRouteDom'?",
-                 optionA: "npm i react-router-dom -save",
-                 optionB: "npm i react-router-home -save",
-                 optionC: "npm i react-router",
-                 optionD: "npm i react",
-                 correctOption: "optionA"
-             },
-             {
-                 question: "Какой командой установить composer?",
-                 optionA: "composer i",
-                 optionB: "com i",
-                 optionC: "npm start",
-                 optionD: "php artisan serve",
-                 correctOption: "optionA"
-             },
-             {
-                 question: "Какой командой накатить миграций в базу данны в Laravel?",
-                 optionA: "composer i",
-                 optionB: "migrate",
-                 optionC: "php artisan",
-                 optionD: "php artisan migrate --seed",
-                 correctOption: "optionD"
-             },
-             {
-                 question: "Какой командой установить ключи генераций в Laravel?",
-                 optionA: "npm i react-router-dom -save",
-                 optionB: "php artisan key:generate",
-                 optionC: "npm i react",
-                 optionD: "php artisan migrate --seed",
-                 correctOption: "optionB"
-             },
-             {
-                 question: "Какой командой запустить сервер в Laravel?",
-                 optionA: "composer",
-                 optionB: "php artisan serve",
-                 optionC: "npm start",
-                 optionD: "php artisan --seed",
-                 correctOption: "optionB"
-             },
-             {
-                 question: "На каком порту по умолчанию запуститься сервер в Laravel?",
-                 optionA: "http://127.0.0.1:8000",
-                 optionB: "https://localhost/1200",
-                 optionC: "local",
-                 optionD: "newSite",
-                 correctOption: "optionA"
-             },
-             {
-                 question: "На каком порту по умолчанию запуститься сервер в React?",
-                 optionA: "http://127.0.0.1:3000",
-                 optionB: "https://localhost/2100",
-                 optionC: "localNew",
-                 optionD: "SiteNew",
-                 correctOption: "optionA"
-             },
-             {
-                 question: "Какой командой получить весь список API в Laravel?",
-                 optionA: "php artisan serve",
-                 optionB: "php artisan route:list",
-                 optionC: "composer",
-                 optionD: "php artisan",
-                 correctOption: "optionB"
-             },
-             {
-                 question: "В каком файле храниться вся информация об API, в папке 'routes'?",
-                 optionA: "web.php",
-                 optionB: "api.php",
-                 optionC: "channels.php",
-                 optionD: "console.php",
-                 correctOption: "optionB"
-             },
-
-             {
-                 question: "Какой командой создать проект на React?",
-                 optionA: "composer",
-                 optionB: "php artisan",
-                 optionC: "npx create-react-app my-app",
-                 optionD: "npx create-react",
-                 correctOption: "optionC"
-             },
-             {
-                 question: "Какой командой перейти в какую-нибудь папку?",
-                 optionA: "info",
-                 optionB: "del",
-                 optionC: "cd",
-                 optionD: "console",
-                 correctOption: "optionC"
-             },
-             {
-                 question: "В каком файле должены появить упоминания об react-router-dom?",
-                 optionA: "react",
-                 optionB: "console.php",
-                 optionC: "package.json",
-                 optionD: "App.jsx",
-                 correctOption: "optionC"
              },
          ]
 
@@ -609,7 +441,7 @@
 
          function handleQuestions() {
              //function to shuffle and push 10 questions to shuffledQuestions array
-             while (shuffledQuestions.length <= 14) {
+             while (shuffledQuestions.length <= 4) {
                  const random = questions[Math.floor(Math.random() * questions.length)]
                  if (!shuffledQuestions.includes(random)) {
                      shuffledQuestions.push(random)
@@ -688,7 +520,7 @@
              unCheckRadioButtons()
              //delays next question displaying for a second
              setTimeout(() => {
-                 if (indexNumber <= 14) {
+                 if (indexNumber <= 4) {
                      NextQuestion(indexNumber)
                  } else {
                      handleEndGame()
@@ -719,17 +551,17 @@
              let remarkColor = null
 
              // condition check for player remark and remark color
-             if (playerScore <= 5) {
+             if (playerScore <= 1) {
                  remark = ""
                  remarkColor = "red"
-             } else if (playerScore >= 5 && playerScore < 10) {
+             } else if (playerScore >= 2 && playerScore < 3) {
                  remark = ""
                  remarkColor = "orange"
-             } else if (playerScore >= 10) {
+             } else if (playerScore >= 3) {
                  remark = ""
                  remarkColor = "green"
              }
-             const playerGrade = (playerScore / 15) * 100
+             const playerGrade = (playerScore / 5) * 100
 
              //data to display to score board
              document.getElementById('remarks').innerHTML = remark
