@@ -38,7 +38,7 @@
                         решать задания для Rest API и как азработать SPA, так же по ссылочке можно скачать задание,
                         и проходить урок за уроком!!! -->
                     </p>
-                    <a class="primary_btn" href="../assets/files/site.zip" download><span>Скачать</span></a>
+                    <a class="primary_btn" href="../assets/files/Site.zip" download><span>Скачать</span></a>
                 </div>
             </div>
         </div>

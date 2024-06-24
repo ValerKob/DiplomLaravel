@@ -27,7 +27,7 @@
                 <div class="offset-lg-1 col-lg-5">
                     <div class="portfolio_right_text mt-30">
                         <p>
-                            <a class="primary_btn" href="../../assets/files/siteFinal.zip" target="_blank" download><span>Скачать ПРОЕКТ</span></a>
+                            <a class="primary_btn" href="../../assets/files/SiteFinal.zip" target="_blank" download><span>Скачать ПРОЕКТ</span></a>
                         <p>
                             <!-- <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Посмотреть результаты</span></a> -->
                         </p>
