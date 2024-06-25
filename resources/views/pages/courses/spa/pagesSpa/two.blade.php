@@ -7,7 +7,7 @@
 <section class="portfolio_details_area section_gap" style="padding: 200px 0 50px 0;">
     <div class="container">
         <div class="text-center" style="margin: -50px 0 50px 0;">
-            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа с проектом, делаем скилет сайта</h2>
+            <h2 class="text-left" style="color: #000;">2 Урок <br>Работа с проектом, делаем скелет сайта</h2>
         </div>
         <div class="">
             <div class="row">

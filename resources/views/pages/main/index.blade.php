@@ -26,7 +26,7 @@
                                 <!-- <a class="primary_btn tr-bg" href="../assets/files/SPA.docx" download=""><span>Скачать</span></a> -->
                             </div>
                                 <li class="primary_btn @if(request()->is('interactive')) active @endif">
-                                    <a class="nav-link" href="{{ route('interactive') }}">Интерактиве</a>
+                                    <a class="nav-link" href="{{ route('interactive') }}">Интерактив</a>
                                 </li>
                                 <li class="primary_btn submenu dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение</a>

@@ -144,6 +144,163 @@ img {<br>
                     </div>
                 </div>
             </div>
+             <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+               Все прописанные классы можно скопировать, нажав на кнопку copy:
+            </p>
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
+                    </div>
+                </div>
+                <div id="DIV_12">
+                  &lt;  !DOCTYPE html&gt;<br>
+&lt;html lang="en"&gt;<br>
+  &lt;head&gt;<br>
+    &lt;meta charset="UTF-8" /&gt;<br>
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;<br>
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;<br>
+    &lt;!-- ====== Favicon ====== -<br>
+    &lt;link&gt;<br>
+      &lt;el="shortcut icon&gt;<br>
+      &lt;href="images/favicon-32x32.png&gt;<br>
+      &lt;type="image/png&gt;<br>
+    &lt;&gt;<br>
+    &lt;!-- ====== Boxicons ====== --&gt;<br>
+    &lt;lin&gt;<br>
+      &lt;ref="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css&gt;<br>
+      &lt;el="stylesheet&gt;<br>
+    &lt;&gt;<br>
+    &lt;!-- ====== Swiper CSS ====== --&gt;<br>
+    &lt;link&gt;<br>
+      &lt;el="stylesheet&gt;<br>
+      &lt;ref="https://unpkg.com/swiper/swiper-bundle.min.css&gt;<br>
+    &lt;&gt;<br>
+    &lt;!-- ====== Custom CSS ====== --&gt;<br>
+    &lt;link rel="stylesheet" href="css/styles.css" /&gt;<br>
+    &lt;title&gt;>Fashion Shop</title&gt;<br>
+  &lt;/head&gt;<br>
+                 &lt;body&gt;<br>
+    <!-- ====== Header ====== -->
+    &lt;header class="header"&gt;<br>
+      <!-- ====== Navigation ====== -->
+      &lt;nav class="navbar"&gt;<br>
+        &lt;div class="row container d-flex"&gt;<br>
+          &lt;div&gt; class="logo"&gt;<br>
+            &lt;img src="./images/logo.svg" alt="" /&gt;<br>
+          &lt;/div&gt;<br>
+
+          &lt;div class="nav-list d-flex"&gt;<br>
+            &lt;a&gt; href="">Home</a&gt;<br>
+            &lt;a&gt; href="">Shop</a&gt;<br>
+            &lt;a&gt; href="">Pages</a&gt;<br>
+            &lt;a&gt; href="">About Us</a&gt;<br>
+            &lt;a&gt; href="">Lookups</a&gt;<br>
+            &lt;div class="close"&gt;<br>
+              &lt;i&gt; class="bx bx-x"></i&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;a&gt; class="user-link">Login</a&gt;<br>
+          &lt;/div&gt;&gt;<br>
+          &lt;div class="icons d-flex"&gt;<br>
+            &lt;div class="icon d-flex"><i class="bx bx-search"></i></div&gt;<br>
+            &lt;div class="icon user-icon d-flex"&gt;<br>
+              &lt;i class="bx bx-user"></i&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="icon d-flex"&gt;<br>
+              &lt;i class="bx bx-bell"></i&gt;<br>
+              &lt;span></span&gt;<br>
+            &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+
+          &lt;!-- Hamburger --&gt;<br>
+          &lt;div class="hamburger"&gt;<br>
+            &lt;i class="bx bx-menu-alt-right"></i&gt;<br>
+          &lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+      &lt;/nav&gt;<br>
+
+      &lt;!-- ====== Hero Area ====== --&gt;<br>
+      &lt;div class="hero"&gt;<br>
+        &lt;div class="row container d-flex"&gt;<br>
+          &lt;div class="col"&gt;<br>
+            &lt;span class="subtitle">Limited Time Only For Winter</span&gt;<br>
+            &lt;h1>fash<span class="i">i</span>on</h1&gt;<br>
+            &lt;p>LOOK YOUR BEST ON YOUR BEST DAY</p&gt;<br>
+
+            &lt;button class="btn">Explore Now!</button&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;img src="./images/woman-in-cart.png" alt="" /&gt;<br>
+        &lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+    &lt;/header&gt;<br>
+    &lt;!-- ====== Collection ====== --&gt;<br>
+    &lt;section class="section collection"&gt;<br>
+      &lt;div class="title"&gt;<br>
+        &lt;span>COLLECTION</span&gt;<br>
+        &lt;h2>Our Top Collection</h2&gt;<br>
+      &lt;/div&gt;<br>
+      &lt;div class="filters d-flex"&gt;<br>
+        &lt;div data-filter="Jewellery">Jewellery</div&gt;<br>
+        &lt;div data-filter="Accessories">Accessories</div&gt;<br>
+        &lt;div data-filter="Dresses">Dresses</div&gt;<br>
+        &lt;div data-filter="Footwear">Footwear</div&gt;<br>
+      &lt;/div&gt;<br>
+
+      &lt;div class="products container"&gt;<br>
+        &lt;div class="swiper mySwiper"&gt;<br>
+          &lt;div class="swiper-wrapper" id="products"&gt;<br>
+            &lt;div class="swiper-slide"&gt;<br>
+              <!-- <div class="product">
+                <div class="top d-flex">
+                  <img src="./images/product-1.png" alt="" />
+                  <div class="icon d-flex">
+                    <i class="bx bxs-heart"></i>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+                  <div class="d-flex">
+                    <div class="price">$150</div>
+                    <div class="rating">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            &lt;/div&gt;<br>
+          &lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;div class="pagination"&gt;<br>
+          &lt;div class="custom-pagination"></div&gt;<br>
+        &lt;/div&gt;<br>
+      &lt;/div&gt;<br>
+    &lt;/section&gt;<br>
+    
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+                </div>
+            </div>
             <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="left_img">

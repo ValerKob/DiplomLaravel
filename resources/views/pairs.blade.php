@@ -51,7 +51,7 @@
                             <a class="nav-link" href="{{ route('main') }}">Главная</a>
                         </li>
                         <li class="nav-item @if(request()->is('interactive')) active @endif">
-                            <a class="nav-link" href="{{ route('interactive') }}">Интерактиве</a>
+                            <a class="nav-link" href="{{ route('interactive') }}">Интерактив</a>
                         </li>
                         <li class="nav-item submenu dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Обучение</a>

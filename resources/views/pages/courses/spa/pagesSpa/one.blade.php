@@ -62,6 +62,47 @@
                 </div>
             </div>
 
+            <p style="text-indent: 20px; margin-top: 40px; margin-bottom: 40px;">
+               Код из файла можно скопировать, нажав на кнопку copy:
+            </p>
+            <div id="DIV_1">
+                <div id="DIV_2">
+                    <div id="DIV_3">
+                        <div id="DIV_4">
+                            <svg id="svg_5">
+                                <path id="path_6">
+                                </path>
+                            </svg> Terminal
+                        </div>
+                        <div id="DIV_7" style="cursor: pointer;" onclick="copyToClipboard('#DIV_12')">
+                            <button id="BUTTON_8">
+                            </button>
+                            <svg id="svg_9">
+                                <path id="path_10">
+                                </path>
+                                <path id="path_11">
+                                </path>
+                            </svg>
+                            <!-- -->
+                            Copy
+                        </div>
+                    </div>
+                </div>
+                <div id="DIV_12">
+                &lt;!DOCTYPE html&gt; <br>
+                &lt;html lang="en"&gt; <br>
+                &lt;head&gt; <br>
+                    &lt;meta charset="UTF-8"&gt; <br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br>
+                    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt; <br>
+                    &lt;title&gt;Document&lt;/title&gt; <br>
+                &lt;/head&gt;
+                &lt;body&gt; <br>
+                &lt;/body&gt; <br>
+                &lt;/html&gt; <br>
+                </div>
+            </div>
+
             {{-- <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="portfolio_right_text mt-30">
@@ -144,7 +185,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 180px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         perspective-origin: 439.6px 52px;
@@ -1152,7 +1193,7 @@
         caret-color: rgb(246, 247, 249);
         color: rgb(246, 247, 249);
         column-rule-color: rgb(246, 247, 249);
-        height: 100px;
+        height: auto;
         inline-size: 879.2px;
         overflow-wrap: break-word;
         padding-block-end: 24px;
