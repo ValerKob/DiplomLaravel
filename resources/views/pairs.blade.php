@@ -314,16 +314,6 @@
                     img: "images/game/6.png",
                     id: 6
                 },
-                {
-                    name: "info",
-                    img: "images/game/7.png",
-                    id: 7
-                },
-                {
-                    name: "bootstrap-3",
-                    img: "images/game/8.png",
-                    id: 8
-                },
             ];
 
             // запускаем игру
