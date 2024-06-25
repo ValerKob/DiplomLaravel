@@ -30,8 +30,8 @@
          <div class="game-quiz-container">
 
              <div class="game-details-container">
-                 <h1>Счет : <span id="player-score"></span> / 5</h1>
-                 <h1>Вопрос : <span id="question-number"></span> / 5</h1>
+                 <h1>Счет : <span id="player-score"></span> / 15</h1>
+                 <h1>Вопрос : <span id="question-number"></span> / 15</h1>
              </div>
 
              <div class="game-question-container">
@@ -436,6 +436,90 @@
                  optionD: "Sass",
                  correctOption: "optionD"
              },
+
+              {
+                 question: "То, чего сильно не хватало оригинальному CSS?",
+                 optionA: "Переменные",
+                 optionB: "Строки",
+                 optionC: "Числовые",
+                 optionD: "Данные",
+                 correctOption: "optionA"
+             },
+
+             {
+                 question: "Позволяют работать с числами, строками",
+                 optionA: "Встроенные переменные",
+                 optionB: "Встроенные функции",
+                 optionC: "Данные",
+                 optionD: "Строки",
+                 correctOption: "optionB"
+             },
+
+             {
+                 question: "Позволяет объединять значения множественных свойств в отдельные списки, разделенные запятой, или пробелом под общим свойством.",
+                 optionA: "Встроенные переменные",
+                 optionB: "Мердж",
+                 optionC: "Данные",
+                 optionD: "Строки",
+                 correctOption: "optionB"
+             },
+
+             {
+                 question: "Позволяют декларировать условие, по которому меняется результат выполнения правила для селектора.",
+                 optionA: "Гуарды",
+                 optionB: "Нуарды",
+                 optionC: "Данные",
+                 optionD: "Less",
+                 correctOption: "optionA"
+             },
+              {
+                 question: "Позволяют выделить повторяющиеся куски кода, также могут принимать входящие аргументы.",
+                 optionA: "Мексины",
+                 optionB: "Нуарды",
+                 optionC: "Данные",
+                 optionD: "Less",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "С использованием какой технологии создан Less?",
+                 optionA: "Sass",
+                 optionB: "Css",
+                 optionC: "C#",
+                 optionD: "C++",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "Для чего используется импорт",
+                 optionA: "к подстановке одного кода внутрь другого.",
+                 optionB: "Для более быстрой работы",
+                 optionC: "Не зачем",
+                 optionD: "Так код понимает у кого есть приоритет",
+                 correctOption: "optionA"
+             },
+              {
+                 question: "Для чего используется импорт",
+                 optionA: "к подстановке одного кода внутрь другого.",
+                 optionB: "Для более быстрой работы",
+                 optionC: "Не зачем",
+                 optionD: "Так код понимает у кого есть приоритет",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "С использованием какой технологии создан Less?",
+                 optionA: "Sass",
+                 optionB: "Css",
+                 optionC: "C#",
+                 optionD: "C++",
+                 correctOption: "optionA"
+             },
+             {
+                 question: "Для чего используется импорт",
+                 optionA: "к подстановке одного кода внутрь другого.",
+                 optionB: "Для более быстрой работы",
+                 optionC: "Не зачем",
+                 optionD: "Так код понимает у кого есть приоритет",
+                 correctOption: "optionA"
+             },
          ]
 
 
@@ -443,7 +527,7 @@
 
          function handleQuestions() {
              //function to shuffle and push 10 questions to shuffledQuestions array
-             while (shuffledQuestions.length <= 4) {
+             while (shuffledQuestions.length <= 14) {
                  const random = questions[Math.floor(Math.random() * questions.length)]
                  if (!shuffledQuestions.includes(random)) {
                      shuffledQuestions.push(random)
@@ -522,7 +606,7 @@
              unCheckRadioButtons()
              //delays next question displaying for a second
              setTimeout(() => {
-                 if (indexNumber <= 4) {
+                 if (indexNumber <= 14) {
                      NextQuestion(indexNumber)
                  } else {
                      handleEndGame()
@@ -553,17 +637,17 @@
              let remarkColor = null
 
              // condition check for player remark and remark color
-             if (playerScore <= 1) {
+             if (playerScore <= 5) {
                  remark = ""
                  remarkColor = "red"
-             } else if (playerScore >= 2 && playerScore < 3) {
+             } else if (playerScore >= 5 && playerScore < 9) {
                  remark = ""
                  remarkColor = "orange"
-             } else if (playerScore >= 3) {
+             } else if (playerScore >= 10) {
                  remark = ""
                  remarkColor = "green"
              }
-             const playerGrade = (playerScore / 5) * 100
+             const playerGrade = (playerScore / 15) * 100
 
              //data to display to score board
              document.getElementById('remarks').innerHTML = remark
