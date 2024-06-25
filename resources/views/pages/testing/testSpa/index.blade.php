@@ -165,7 +165,8 @@
 
          .game-options-container span {
              width: 45%;
-             height: 3rem;
+             height: auto;
+             padding: 5px;
              border: 2px solid darkgray;
              border-radius: 20px;
              overflow: hidden;
@@ -193,6 +194,7 @@
          input[type="radio"] {
              position: relative;
              display: none;
+             min-height: 200px;
          }
 
 
@@ -421,7 +423,7 @@
                  question: "ЧТО ТАКОЕ ПРЕПРОЦЕССОРЫ?",
                  optionA: "Специальный фрейморк",
                  optionB: "Что-то не понятное",
-                 optionC: "Это Инструмент",
+                 optionC: "Это инструмент расширяющий возможности css",
                  optionD: "Библиотека для html",
                  correctOption: "optionC"
              },
