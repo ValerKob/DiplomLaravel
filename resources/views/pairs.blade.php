@@ -93,13 +93,19 @@
 <!--================ End Header Area =================-->
 <main>
     <div class="col-12">
-        <div class="game-wrap">
+        <div class="game-wrap" >
             <!-- блок с игрой -->
             <div class="game"></div>
         </div>
     </div>
+
+    <style>
+        .game-card {
+            width: 25%;
+        }
+    </style>
     <!-- модальное окно, которое появится после сбора всех пар -->
-    <div class="modal fade" id="result" tabindex="-1" data-bs-keyboard="false">
+    <div class="modal fade" id="result" tabindex="-1" data-bs-keyboard="false" style="color: black; margin-top: 100px">
         <div class="modal-dialog win-modal">
             <div class="modal-content py-5 h-100 w-100">
                 <h2 class="text-center">Победа!</h2>
@@ -280,7 +286,7 @@
             var cards = [
                 {
                     name: "bootstrap_logo",
-                    img: "images/game/1.png",
+                    img: "images/game/1.jpg",
                     id: 1,
                 },
                 {
@@ -317,26 +323,6 @@
                     name: "bootstrap-3",
                     img: "images/game/8.png",
                     id: 8
-                },
-                {
-                    name: "vs-code",
-                    img: "images/game/9.png",
-                    id: 9
-                },
-                {
-                    name: "figma",
-                    img: "images/game/10.png",
-                    id: 10
-                },
-                {
-                    name: "xd",
-                    img: "images/game/11.png",
-                    id: 11
-                },
-                {
-                    name: "github",
-                    img: "images/game/12.png",
-                    id: 12
                 },
             ];
 
