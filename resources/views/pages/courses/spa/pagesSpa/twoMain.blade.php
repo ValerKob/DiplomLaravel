@@ -29,6 +29,22 @@
                         <p>
                             <a class="primary_btn" href="../../assets/files/SiteFinal.zip" target="_blank" download><span>Скачать ПРОЕКТ</span></a>
                         <p>
+                             <li class="primary_btn @if(request()->is('testSpa')) active @endif"><a class="nav-link" href="{{ route('testSpa') }}">Тестирование</a></li>
+                            <style>
+                                .primary_btn {
+                                   
+                                    widows: auto;
+                                    max-width: 220px;
+                                }
+
+                                .primary_btn:hover > a {
+                                    color: black;
+                                }
+
+                                .primary_btn > a {
+                                     color: white;
+                                }
+                            </style>
                             <!-- <a class="primary_btn" href="https://github.com/ValerKob/CRM_React_TS" target="_blank" download><span>Посмотреть результаты</span></a> -->
                         </p>
                     </div>
