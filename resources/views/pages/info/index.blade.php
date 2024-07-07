@@ -40,7 +40,17 @@
 						    </tr>
 						  </thead>
 						  <tbody>
-						    <tr>
+                            @foreach($users as $key => $data)
+							<tr>
+						      <th scope="row">{{$data->id}}</th>
+						      <td>{{$data->customer}}</td>
+						      <td>{{$data->ship}}</td>
+						      <td>{{$data->price}}</td>
+						      <td>{{$data->date}}</td>
+						      <td><a href="#" class="btn btn-success">Progress</a></td>
+						    </tr>
+							@endforeach
+						    {{-- <tr>
 						      <th scope="row">1001</th>
 						      <td>Mark Otto</td>
 						      <td>Japan</td>
@@ -65,7 +75,7 @@
 						      <td>$3000</td>
 						      <td>$1200</td>
 						      <td><a href="#" class="btn btn-danger">On hold</a></td>
-						    </tr>
+						    </tr> --}}
 						  </tbody>
 						</table>
 					</div>

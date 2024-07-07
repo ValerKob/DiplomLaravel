@@ -28,7 +28,7 @@ class RegisterRequest extends FormRequest
             'customer' => 'min:5',
             'ship' => 'min:5',
             'price' => 'min:5',
-            'data' => 'min:5',
+            'date' => '',
             'dataFile' => '',
         ];
     }

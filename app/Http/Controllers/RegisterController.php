@@ -14,14 +14,26 @@ class RegisterController extends Controller
         $customer = $req->customer;
         $ship = $req->ship;
         $price = $req->price;
-        $data = $req->data;
+        $date = $req->date;
         $dataFile = $req->dataFile;
         $type = 0;
-      
-        // DB::table('users')->insert(['login' => $login, 'email' => $email, 'password' => Hash::make($password), 'type' => $type]);
+ 
+        DB::table('users')->insert(['customer' => $customer, 'ship' => $ship, 'price' => $price, 'date' => $date, 'dataFile' => ' ']);
 
-        $users = DB::table('users')->where(['id' => session('id')])->get();
-        return view('pages.profile.index', compact('users'));
+        $users = DB::table('users')->get();
+        return view('pages.addData.index', compact('users'));
+    }
+
+    public function info()
+    {
+        $users = DB::table('users')->get();
+        return view('pages.info.index', compact('users'));
+    }
+
+    public function addData()
+    {
+        $users = DB::table('users')->get();
+        return view('pages.addData.index', compact('users'));
     }
 
     public function SigneIN(RegisterRequest $req)

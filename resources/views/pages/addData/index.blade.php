@@ -22,7 +22,7 @@
         <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
             <div class="card">
                 <h5 class="text-center mb-4">Добавить новые данные</h5>
-				<form action="FormAdd" class="mx-1 mx-md-4" method="POST">
+				<form action="FormAdd" class="mx-1 mx-md-4" method="POST" enctype="multipart/form-data">
 					@csrf
                     <div class="row justify-content-between text-left">
                         <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Customer<span class="text-danger"> *</span></label> <input type="text" id="fname" name="customer" placeholder="Enter Customer"> </div>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="row justify-content-between text-left">
                         <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Price<span class="text-danger"> *</span></label> <input type="text" id="email" name="price" placeholder=""> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Pruchased Price<span class="text-danger"> *</span></label> <input type="date" id="mob" name="data" placeholder=""> </div>
+                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Pruchased Price<span class="text-danger"> *</span></label> <input type="date" id="mob" name="date" placeholder=""> </div>
                     </div>
                     <div class="row justify-content-between text-left">
                         <div class="form-group col-12 flex-column d-flex"> <label class="form-control-label px-3">Добавит файл<span class="text-danger"> *</span></label> <input type="file" id="ans" name="dataFile" placeholder=""> </div>
@@ -65,32 +65,16 @@
 						    </tr>
 						  </thead>
 						  <tbody>
-						    <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
+							@foreach($users as $key => $data)
+							<tr>
+						      <th scope="row">{{$data->id}}</th>
+						      <td>{{$data->customer}}</td>
+						      <td>{{$data->ship}}</td>
+						      <td>{{$data->price}}</td>
+						      <td>{{$data->date}}</td>
 						      <td><a href="#" class="btn btn-success">Progress</a></td>
 						    </tr>
-
-						    <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
-						      <td><a href="#" class="btn btn-warning">Open</a></td>
-						    </tr>
-
-						    <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
-						      <td><a href="#" class="btn btn-danger">On hold</a></td>
-						    </tr>
+							@endforeach
 						  </tbody>
 						</table>
 					</div>

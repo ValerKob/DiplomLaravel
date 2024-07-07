@@ -18,8 +18,10 @@ use Symfony\Component\Routing\Router;
 
 $error = 0;
 Route::view('', 'pages.main.index')->name('main');
-Route::view('info', 'pages.info.index')->name('info');
-Route::view('addData', 'pages.addData.index')->name('addData');
+
+// Get
+Route::get('info', [RegisterController::class, 'info'])->name('info');
+Route::get('addData', [RegisterController::class, 'addData'])->name('addData');
 
 // AddData
 Route::post('FormAdd', [RegisterController::class, 'FormAdd'])->name('FormAdd');
