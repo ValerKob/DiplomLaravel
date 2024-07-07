@@ -40,7 +40,7 @@
 						    </tr>
 						  </thead>
 						  <tbody>
-                            @foreach($users as $key => $data)
+                            @foreach($data_file as $key => $data)
 							<tr>
 						      <th scope="row">{{$data->id}}</th>
 						      <td>{{$data->customer}}</td>
