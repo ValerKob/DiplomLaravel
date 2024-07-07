@@ -9,39 +9,16 @@ use Illuminate\Support\Facades\Hash;
 
 class RegisterController extends Controller
 {
-    public function SigneUP(RegisterRequest $req)
+    public function FormAdd(RegisterRequest $req)
     {
-        $login = $req->login;
-        $email = $req->email;
-        $password = $req->password;
-        $doublePassword = $req->doublePassword;
-        $checkYes = $req->checkYes;
+        $customer = $req->customer;
+        $ship = $req->ship;
+        $price = $req->price;
+        $data = $req->data;
+        $dataFile = $req->dataFile;
         $type = 0;
-
-        if ($password != $doublePassword) {
-            $error = 1;
-            return view('pages.signeup.index', compact('error'));
-        }
-
-        if ($checkYes === null) {
-            $error = 2;
-            return view('pages.signeup.index', compact('error'));
-        }
-
-        $users = DB::table('users')->get();
-        foreach ($users as $user) {
-            if ($login === $user->login) {
-                $error = 3;
-                return view('pages.signeup.index', compact('error'));
-            }
-            if ($email === $user->email) {
-                $error = 4;
-                return view('pages.signeup.index', compact('error'));
-            }
-        }
-
-        session(['id' => $user->id]);
-        DB::table('users')->insert(['login' => $login, 'email' => $email, 'password' => Hash::make($password), 'type' => $type]);
+      
+        // DB::table('users')->insert(['login' => $login, 'email' => $email, 'password' => Hash::make($password), 'type' => $type]);
 
         $users = DB::table('users')->where(['id' => session('id')])->get();
         return view('pages.profile.index', compact('users'));

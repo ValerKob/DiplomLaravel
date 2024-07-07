@@ -25,11 +25,11 @@ class RegisterRequest extends FormRequest
     {
         return [
             'id' => '',
-            'login' => 'min:5',
-            'email' => 'min:5',
-            'password' => 'min:5',
-            'doublePassword' => 'min:5',
-            'checkYes' => '',
+            'customer' => 'min:5',
+            'ship' => 'min:5',
+            'price' => 'min:5',
+            'data' => 'min:5',
+            'dataFile' => '',
         ];
     }
 }
