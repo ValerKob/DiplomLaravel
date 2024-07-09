@@ -45,7 +45,34 @@
 						      <td>{{$data->fullName}}</td>
 						      <td>{{$data->typeClient}}</td>
 						      <td>{{$data->date}}</td>
-						      <td><a href="#" class="btn btn-success">Всё хорошо</a></td>
+						      <td>
+								<?php
+								// Указываем целевую дату
+								$targetDate = $data->date;
+
+								// Получаем текущую дату
+								$currentDate = date('Y-m-d');
+
+								// Преобразуем даты в объекты DateTime
+								$targetDateTime = new DateTime($targetDate);
+								$currentDateTime = new DateTime($currentDate);
+
+								// Вычисляем разницу между датами
+								$interval = $currentDateTime->diff($targetDateTime);
+
+								// Получаем количество дней до целевой даты
+								$daysRemaining = $interval->days;
+
+								// Проверяем, прошла ли целевая дата
+								if ($interval->invert == 1) {
+									?><a href="#" class="btn btn-danger">Срок истёк</a><?php
+								} elseif($daysRemaining < 30) {
+									?><a href="#" class="btn btn-warning">Осталось <?= $daysRemaining?> дней</a><?php
+								} else {
+									?><a href="#" class="btn btn-success">Всё хорошо</a><?php
+								}
+								?>
+								</td>
 						    </tr>
 							@endforeach
 						  </tbody>
