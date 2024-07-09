@@ -22,7 +22,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Данные по истёкшим сроками мед карт</h2>
+					<h2 class="heading-section">Данные по мед картам</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -31,51 +31,23 @@
 						<table class="table table-striped">
 						  <thead>
 						    <tr>
-						      <th>Invoce</th>
-						      <th>Customer</th>
-						      <th>Ship</th>
-						      <th>Price</th>
-						      <th>Pruchased Price</th>
-						      <th>Status</th>
+						      <th>ID</th>
+						      <th>ФИО</th>
+						      <th>Тип клиента</th>
+						      <th>Дата истечения срока</th>
+						      <th>Статус</th>
 						    </tr>
 						  </thead>
 						  <tbody>
-                            @foreach($data_file as $key => $data)
+							@foreach($data_file as $key => $data)
 							<tr>
 						      <th scope="row">{{$data->id}}</th>
-						      <td>{{$data->customer}}</td>
-						      <td>{{$data->ship}}</td>
-						      <td>{{$data->price}}</td>
+						      <td>{{$data->fullName}}</td>
+						      <td>{{$data->typeClient}}</td>
 						      <td>{{$data->date}}</td>
-						      <td><a href="#" class="btn btn-success">Progress</a></td>
+						      <td><a href="#" class="btn btn-success">Всё хорошо</a></td>
 						    </tr>
 							@endforeach
-						    {{-- <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
-						      <td><a href="#" class="btn btn-success">Progress</a></td>
-						    </tr>
-
-						    <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
-						      <td><a href="#" class="btn btn-warning">Open</a></td>
-						    </tr>
-
-						    <tr>
-						      <th scope="row">1001</th>
-						      <td>Mark Otto</td>
-						      <td>Japan</td>
-						      <td>$3000</td>
-						      <td>$1200</td>
-						      <td><a href="#" class="btn btn-danger">On hold</a></td>
-						    </tr> --}}
 						  </tbody>
 						</table>
 					</div>
@@ -83,5 +55,4 @@
 			</div>
 		</div>
 	</section>
-
 @endsection

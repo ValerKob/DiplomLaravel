@@ -25,9 +25,8 @@ class RegisterRequest extends FormRequest
     {
         return [
             'id' => '',
-            'customer' => 'min:5',
-            'ship' => 'min:5',
-            'price' => 'min:5',
+            'fullName' => '',
+            'typeClient' => '',
             'date' => '',
             'dataFile' => '',
         ];

@@ -11,17 +11,30 @@ class RegisterController extends Controller
 {
     public function FormAdd(RegisterRequest $req)
     {
-        $customer = $req->customer;
-        $ship = $req->ship;
-        $price = $req->price;
+        $fullName = $req->fullName;
+        $typeClient = $req->typeClient;
         $date = $req->date;
         $dataFile = $req->dataFile;
         $type = 0;
+        
+        if($fullName == '') {
+            $error = 1;
+        } else {
+            $error = 0;
+        }
+        if($dataFile== null) {
+            $error = 1;
+        } else {
+            $error = 0;
+        }
+
+        $path = $dataFile->store('files');
  
-        DB::table('data_file')->insert(['customer' => $customer, 'ship' => $ship, 'price' => $price, 'date' => $date, 'dataFile' => ' ']);
+        DB::table('data_file')->insert(['fullName' => $fullName, 'typeClient' => $typeClient, 'date' => $date, 'dataFile' => $path]);
 
         $data_file = DB::table('data_file')->get();
-        return view('pages.addData.index', compact('data_file'));
+
+        return view('pages.addData.index', compact('data_file', 'error'));
     }
 
     public function info()
@@ -33,7 +46,8 @@ class RegisterController extends Controller
     public function addData()
     {
         $data_file = DB::table('data_file')->get();
-        return view('pages.addData.index', compact('data_file'));
+        $error = 1;
+        return view('pages.addData.index', compact('data_file', 'error'));
     }
 
     public function SigneIN(RegisterRequest $req)

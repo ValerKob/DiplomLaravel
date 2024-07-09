@@ -27,7 +27,7 @@
         <h1>Добро пожаловать!</h1>
         <h3>Что вы хотите сделать?</h3>
         <div class="btnGlav">
-            <a href="{{ route('addData') }}" class="btn btn-primary">Добывать данные</a>
+            <a href="{{ route('addData') }}" class="btn btn-primary">Добавить данные</a>
             <a href="{{ route('info') }}" class="btn btn-outline-primary">Посмотреть данные</a>
         </div>
     </div>

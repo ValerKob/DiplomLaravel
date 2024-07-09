@@ -15,9 +15,8 @@ return new class extends Migration
     {
         Schema::create('data_file', function (Blueprint $table) {
             $table->id();
-            $table->string('customer');
-            $table->string('ship');
-            $table->string('price');
+            $table->string('fullName');
+            $table->string('typeClient');
             $table->date('date');
             $table->string('dataFile');
         });
